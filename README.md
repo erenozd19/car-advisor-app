@@ -2,24 +2,28 @@
 
 AI destekli araç analiz ve araç rehberi mobil uygulaması.
 
-Bu proje, kullanıcıların araç seçimi yaparken daha bilinçli karar verebilmesi için geliştirilmiş bir mobil uygulama MVP’sidir. Uygulama; araç rehberi, ilan analizi ve piyasa araştırması gibi modüller üzerinden kullanıcıya yapay zeka destekli yorumlar üretir.
+Bu proje, araç satın almak isteyen kullanıcıların daha bilinçli karar verebilmesi için geliştirilmiş MVP seviyesinde bir mobil uygulamadır.
+
+Uygulama; araç rehberi, ilan analizi ve piyasa araştırması modülleriyle kullanıcıya araç hakkında AI destekli yorum, risk analizi, tahmini piyasa aralığı, ekspertiz kontrol listesi ve satıcıya sorulacak sorular üretir.
+
+---
 
 ## Proje Durumu
 
-Proje şu anda MVP / geliştirme aşamasındadır.
+Proje şu anda geliştirme / MVP aşamasındadır.
 
-Aktif olarak çalışan ana modüller:
+Çalışan ana akışlar:
 
-- Araç rehberi oluşturma
-- Bulunan aracı analiz etme
-- AI destekli ilan yorumu
-- Piyasa tahmini alanı
-- Kilometre, fiyat, hasar ve boya durumuna göre değerlendirme
+- Araç Rehberi Gör
+- Bulduğum Aracı Analiz Et
+- Piyasa Araştırması Yap
+- AI destekli fiyat / kilometre / hasar yorumu
+- Piyasa tahmini kartı
+- Ekspertiz kontrol listesi
 - Satıcıya sorulacak sorular
-- Ekspertizde dikkat edilmesi gereken noktalar
-- Rapor geçmişi yapısı
+- Rapor geçmişi
 
-İlerleyen aşamalarda canlı ilan verisi, daha gelişmiş piyasa karşılaştırması, marka/model logoları ve daha kapsamlı araç veri tabanı eklenecektir.
+---
 
 ## Kullanılan Teknolojiler
 
@@ -29,39 +33,183 @@ Aktif olarak çalışan ana modüller:
 - Expo
 - TypeScript
 - Expo Router
-- Async/local state yapısı
 
 ### Backend
 
 - Node.js
 - Express.js
-- Gemini API entegrasyonu
-- Wikipedia kaynaklı temel araç bilgisi alma
-- REST API yapısı
+- Gemini API
+- Wikipedia API
 
-## Ana Özellikler
+---
 
-### 1. Araç Rehberi
+## Projeyi Bilgisayara İndirme
 
-Kullanıcı marka, model, yıl, motor, yakıt ve şanzıman bilgilerini girerek araç hakkında genel bir rehber oluşturabilir.
+```bash
+git clone https://github.com/erenozd19/car-advisor-app.git
+cd car-advisor-app
+```
 
-Araç rehberi şunları içerir:
+---
 
-- Genel değerlendirme
-- Kronik sorunlar / riskler
-- Motor ve şanzıman notları
+## Kurulum
+
+Ana uygulama bağımlılıklarını yükleyin:
+
+```bash
+npm install
+```
+
+Backend klasörüne girip backend bağımlılıklarını yükleyin:
+
+```bash
+cd backend
+npm install
+```
+
+---
+
+## Environment Ayarı
+
+Backend klasörü içinde `.env.example` dosyasını kopyalayıp `.env` dosyası oluşturun.
+
+Windows:
+
+```bash
+copy .env.example .env
+```
+
+Mac / Linux:
+
+```bash
+cp .env.example .env
+```
+
+`.env` dosyası şu formatta olmalıdır:
+
+```env
+PORT=3001
+
+AI_PROVIDER=gemini
+
+OPENAI_API_KEY=
+OPENAI_MODEL=gpt-4.1-mini
+
+GEMINI_API_KEY=YOUR_GEMINI_API_KEY
+GEMINI_MODEL=gemini-2.5-flash-lite
+```
+
+Gerçek Gemini API key `.env` dosyasına yazılmalıdır.
+
+`.env` dosyası güvenlik nedeniyle GitHub’a gönderilmemelidir.
+
+---
+
+## Backend Nasıl Açılır?
+
+Terminalde backend klasörüne girin:
+
+```bash
+cd backend
+```
+
+Backend’i başlatın:
+
+```bash
+npm run dev
+```
+
+Başarılı çalışırsa terminalde şu tarz bir çıktı görülür:
+
+```txt
+Backend çalışıyor: http://localhost:3001
+```
+
+Backend açık kalmalıdır. Mobil uygulama AI raporlarını backend üzerinden alır.
+
+---
+
+## Mobil Uygulama Nasıl Açılır?
+
+Yeni bir terminal açın.
+
+Proje ana klasörüne girin:
+
+```bash
+cd car-advisor-app
+```
+
+Expo uygulamasını başlatın:
+
+```bash
+npx expo start -c
+```
+
+Terminalde QR kod oluşur.
+
+Telefonda Expo Go uygulaması açılır ve QR kod okutulur.
+
+Telefon ve bilgisayar aynı Wi-Fi ağına bağlı olmalıdır.
+
+---
+
+## API Base URL Notu
+
+Telefon üzerinden test yapılırken backend adresi `localhost` olmamalıdır.
+
+Telefonun backend’e ulaşabilmesi için bilgisayarın yerel IP adresi kullanılmalıdır.
+
+Örnek:
+
+```ts
+const API_BASE_URL = "http://192.168.1.103:3001";
+```
+
+Expo terminalinde görünen IP değişirse uygulama içindeki API URL değerleri de güncellenmelidir.
+
+Örnek Expo adresi:
+
+```txt
+exp://192.168.1.103:8081
+```
+
+Bu durumda backend adresi:
+
+```txt
+http://192.168.1.103:3001
+```
+
+olmalıdır.
+
+---
+
+## Uygulama Akışları
+
+### 1. Araç Rehberi Gör
+
+Kullanıcı marka, model, yıl, motor, yakıt ve şanzıman bilgilerini girer.
+
+Backend Wikipedia’dan temel araç/model bilgisi alır ve AI ile araç rehberi oluşturur.
+
+Üretilen başlıklar:
+
+- Genel özet
+- Kronik sorunlar
+- Motor / şanzıman notları
 - Bakım notları
-- Ekspertizde özellikle baktırılması gerekenler
+- Ekspertiz kontrol listesi
 - Satıcıya sorulacak sorular
 - Kimler için mantıklı?
 - Kimler uzak durmalı?
 - Son karar
 
+---
+
 ### 2. Bulduğum Aracı Analiz Et
 
-Kullanıcı belirli bir ilan veya araç için detay girerek analiz alabilir.
+Kullanıcı belirli bir ilan veya araç için detay girer.
 
-Girilebilen bilgiler:
+Girilen bilgiler:
 
 - Marka
 - Model
@@ -72,16 +220,20 @@ Girilebilen bilgiler:
 - Kilometre
 - İlan fiyatı
 - Hasar durumu
-- Boya/değişen bilgisi
+- Boya / değişen bilgisi
 - Tramer tutarı
 - Satıcı notu
 
-Analiz çıktısı:
+AI çıktısı:
 
 - Risk seviyesi
-- Özet
-- Fiyat / KM / hasar yorumu
-- Piyasa tahmini
+- Fiyat yorumu
+- Kilometre yorumu
+- Hasar / boya / tramer yorumu
+- Tahmini piyasa aralığı
+- Benzer kilometre fiyat aralığı
+- Temiz örnek fiyat aralığı
+- Pazarlık hedefi
 - Mekanik riskler
 - Pazarlık noktaları
 - Ekspertizde baktırılacaklar
@@ -90,48 +242,143 @@ Analiz çıktısı:
 - Kimler uzak durmalı?
 - Son karar
 
-### 3. Piyasa Araştırması
+---
 
-Kullanıcı bir araç modeli için genel piyasa araştırması yapabilir.
+### 3. Piyasa Araştırması Yap
 
-Bu modülün hedefi:
+Kullanıcı belirli bir aracı seçerek genel piyasa araştırması alır.
 
-- KM segmentlerine göre tahmini fiyat aralıkları göstermek
-- Temiz, boyalı/değişenli, tramerli ve ağır hasarlı araçlar için ayrı fiyat aralıkları üretmek
-- Kullanıcının girdiği kilometre varsa ilgili segmenti öne çıkarmak
-- Fiyat girildiyse uygun / normal / pahalı yorumu yapmak
+Hedef yapı:
 
-Bu bölüm geliştirme aşamasındadır.
+- KM segmentlerine göre fiyat aralıkları
+- Temiz / hasarsız araç fiyatları
+- Boyalı / değişenli araç fiyatları
+- Tramerli araç fiyatları
+- Ağır hasarlı araç fiyatları
+- Kullanıcı fiyat girerse uygun / normal / pahalı yorumu
 
-## AI Kullanımı
+---
 
-Projede AI tarafı şu an Gemini API üzerinden çalışmaktadır.
+## Backend Endpointleri
 
-AI şu alanlarda kullanılmaktadır:
+### Araç Rehberi
 
-- Araç rehberi üretimi
-- İlan analizi
-- Piyasa tahmini
-- Risk yorumu
-- Satıcı soruları
-- Ekspertiz kontrol listesi
-- Pazarlık noktaları
+```http
+POST /api/vehicle-guide
+```
 
-OpenAI entegrasyonu için altyapı ileride tekrar aktif edilebilecek şekilde düşünülmüştür.
+Örnek body:
 
-## Veri Kaynakları
+```json
+{
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "year": "2018",
+  "engine": "1.4 TSI",
+  "fuelType": "Benzin",
+  "transmission": "DSG"
+}
+```
 
-Şu an kullanılan veri kaynakları:
+---
 
-- Kullanıcı tarafından girilen araç bilgileri
-- Wikipedia üzerinden alınan genel araç/model bilgisi
-- AI tarafından üretilen yorum ve tahminler
+### İlan Analizi
 
-Not: Piyasa fiyatları şu aşamada canlı ilan sitelerinden çekilmemektedir. AI destekli tahmini piyasa yorumudur. Canlı ilan verisi entegrasyonu ilerleyen aşamada eklenecektir.
+```http
+POST /api/listing-analysis
+```
 
-## Kurulum
+Örnek body:
 
-Projeyi çalıştırmak için önce bağımlılıkları yükleyin.
+```json
+{
+  "brand": "Volkswagen",
+  "model": "Golf",
+  "year": "2018",
+  "engine": "1.4 TSI",
+  "fuelType": "Benzin",
+  "transmission": "DSG",
+  "km": "132000",
+  "price": "1425369",
+  "damageStatus": "Hasarsız / Tramersiz",
+  "paintStatus": "Temiz",
+  "tramerAmount": "0",
+  "sellerNote": "Bakımlı araç"
+}
+```
 
-```bash
-npm install
+---
+
+### Piyasa Araştırması
+
+```http
+POST /api/market-research
+```
+
+---
+
+## Backend Test Örneği
+
+PowerShell üzerinden ilan analizi testi:
+
+```powershell
+$body = @{
+  brand = "Volkswagen"
+  model = "Golf"
+  year = "2018"
+  engine = "1.4 TSI"
+  fuelType = "Benzin"
+  transmission = "DSG"
+  km = "132000"
+  price = "1425369"
+  damageStatus = "Hasarsız / Tramersiz"
+  paintStatus = "Temiz"
+  tramerAmount = "0"
+  sellerNote = "Bakımlı araç"
+} | ConvertTo-Json
+
+$result = Invoke-RestMethod `
+  -Uri "http://localhost:3001/api/listing-analysis" `
+  -Method Post `
+  -ContentType "application/json" `
+  -Body $body
+
+$result.report | ConvertTo-Json -Depth 8
+```
+
+---
+
+## Önemli Notlar
+
+- Backend çalışmadan AI raporları üretilemez.
+- Telefon ve bilgisayar aynı Wi-Fi ağında olmalıdır.
+- Mobil cihazdan backend’e erişmek için `localhost` yerine bilgisayarın yerel IP adresi kullanılmalıdır.
+- Gemini Free Tier limitleri dolarsa API `429 quota exceeded` hatası verebilir.
+- AI fiyat tahminleri canlı ilan verisi değildir, tahmini yorumdur.
+- Satın alma öncesi profesyonel ekspertiz şarttır.
+- `.env`, `node_modules`, `.expo` gibi dosyalar GitHub’a gönderilmemelidir.
+
+---
+
+## Geliştirme Planı
+
+Yakın vadede:
+
+- API URL yönetimini tek dosyaya almak
+- Theme / style yapılarını toparlamak
+- Hata mesajlarını kullanıcı dostu hale getirmek
+- Gemini limit durumunu uygulamada daha net göstermek
+- AI cevaplarını daha standart JSON formatına sabitlemek
+- Piyasa araştırması ekranını geliştirmek
+- Rapor geçmişini analiz türlerine göre ayırmak
+
+Orta vadede:
+
+- Sahibinden / ilan linkinden veri çekme
+- Ekran görüntüsünden araç bilgisi okuma
+- Fotoğraftan araç tanıma
+- Marka / model / motor veri tabanını genişletme
+- Araç logoları ekleme
+- Canlı piyasa verisi entegrasyonu
+- Paylaşılabilir rapor çıktısı
+- Kullanıcı hesabı ve favori araçlar
