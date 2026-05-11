@@ -1,7 +1,6 @@
 import { router, useLocalSearchParams } from "expo-router";
 import { useState } from "react";
 import {
-    ActivityIndicator,
     Alert,
     SafeAreaView,
     ScrollView,
@@ -10,6 +9,7 @@ import {
     TouchableOpacity,
     View,
 } from "react-native";
+import { AnalysisLoading } from "../components/AnalysisLoading";
 import { getVehicleAliasSuggestion } from "../data/carAliases";
 import { useReportStore } from "../store/reportStore";
 const API_BASE_URL = "http://192.168.1.103:3001";
@@ -21,16 +21,21 @@ export default function ConfirmVehicleScreen() {
     const setCurrentReport = useReportStore((state) => state.setCurrentReport);
     const addSavedReport = useReportStore((state) => state.addSavedReport);
 
-    const [vehicle, setVehicle] = useState({
-  brand: String(params.brand || ""),
-  model: String(params.model || ""),
-  year: String(params.year || ""),
-  engine: String(params.engine || ""),
-  fuelType: String(params.fuelType || ""),
-  transmission: String(params.transmission || ""),
-  mileage: String(params.mileage || ""),
-  price: String(params.price || ""),
-  damageInfo: String(params.damageInfo || ""),
+    const technicalData = params.technicalData
+    ? JSON.parse(String(params.technicalData))
+    : null;
+
+const [vehicle, setVehicle] = useState({
+    brand: String(params.brand || ""),
+    model: String(params.model || ""),
+    year: String(params.year || ""),
+    engine: String(params.engine || ""),
+    fuelType: String(params.fuelType || ""),
+    transmission: String(params.transmission || ""),
+    mileage: String(params.mileage || ""),
+    price: String(params.price || ""),
+    damageInfo: String(params.damageInfo || ""),
+    technicalData,
 });
 
     const title = `${vehicle.year} ${vehicle.brand} ${vehicle.model} ${vehicle.engine}`.trim();
@@ -46,118 +51,128 @@ export default function ConfirmVehicleScreen() {
     const validationWarnings = getVehicleValidationWarnings(vehicle);
     const aliasSuggestion = getVehicleAliasSuggestion(vehicle.brand, vehicle.model);
     function applyAliasSuggestion() {
-  if (!aliasSuggestion) return;
+        if (!aliasSuggestion) return;
 
-  setVehicle((current) => ({
-    ...current,
-    brand: aliasSuggestion.brand || current.brand,
-    model: aliasSuggestion.model || current.model,
-  }));
-}
-    async function handleCreateReport() {
-    try {
-        setIsLoading(true);
-
-        const response = await fetch(`${API_BASE_URL}/api/listing-analysis`, {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-                brand: vehicle.brand,
-                model: vehicle.model,
-                year: vehicle.year,
-                engine: vehicle.engine,
-                fuelType: vehicle.fuelType,
-                transmission: vehicle.transmission,
-                km: vehicle.mileage,
-                price: vehicle.price,
-                damageStatus: vehicle.damageInfo,
-                paintStatus: vehicle.damageInfo,
-                tramerAmount: vehicle.damageInfo,
-                sellerNote: vehicle.damageInfo,
-            }),
-        });
-
-        const data = await response.json();
-
-        if (!response.ok || !data.ok) {
-            throw new Error(data?.message || "İlan analizi oluşturulamadı.");
-        }
-
-        const aiReport = data.report;
-
-        const report: any = {
-    summary: aiReport.summary || "İlan analizi oluşturuldu.",
-
-    listingRiskLevel: aiReport.listingRiskLevel || "Belirtilmedi",
-    riskLevel: aiReport.listingRiskLevel || "Belirtilmedi",
-
-    estimatedMarketRange: aiReport.estimatedMarketRange || "",
-    estimatedSimilarKmPrice: aiReport.estimatedSimilarKmPrice || "",
-    estimatedCleanPrice: aiReport.estimatedCleanPrice || "",
-    pricePosition: aiReport.pricePosition || "",
-    negotiationTarget: aiReport.negotiationTarget || "",
-
-    priceComment: aiReport.priceComment || "",
-    kmComment: aiReport.kmComment || "",
-    damageComment: aiReport.damageComment || "",
-
-    chronicIssues: [
-        `Risk seviyesi: ${String(aiReport.listingRiskLevel || "Belirtilmedi")}`,
-        String(aiReport.priceComment || "Fiyat yorumu alınamadı."),
-        String(aiReport.kmComment || "Kilometre yorumu alınamadı."),
-        String(aiReport.damageComment || "Hasar yorumu alınamadı."),
-    ].filter(Boolean),
-
-    engineTransmissionNotes: aiReport.mechanicalRisks || [],
-    maintenanceNotes: aiReport.negotiationPoints || [],
-    expertiseChecklist: aiReport.expertiseChecklist || [],
-    buyerQuestions: aiReport.buyerQuestions || [],
-
-    whoShouldBuy: [
-        "Ekspertiz sonucu temiz çıkan ve servis geçmişi doğrulanabilen araçları değerlendirmek isteyen kullanıcılar.",
-        "Fiyat, kilometre ve hasar durumunu birlikte analiz ederek karar vermek isteyen alıcılar.",
-    ],
-
-    whoShouldAvoid: [
-        "Ekspertiz yaptırmadan araç almak isteyenler.",
-        "Kilometre, tramer veya bakım geçmişi doğrulanamayan araçlardan kaçınmak isteyenler.",
-    ],
-
-    finalVerdict:
-        aiReport.finalVerdict ||
-        "Ekspertiz sonucu temiz çıkmadan ve servis geçmişi doğrulanmadan satın alınmamalıdır.",
-};
-
-        setCurrentReport(report);
-
-        addSavedReport({
-            id: Date.now().toString(),
-            title: title || "Araç Raporu",
-            createdAt: new Date().toISOString(),
-            vehicle,
-            report,
-        });
-
-        router.push({
-            pathname: "/report-result",
-            params: vehicle,
-        });
-    } catch (error) {
-        console.log("Rapor oluşturma hatası:", error);
-
-        Alert.alert(
-            "Rapor oluşturulamadı",
-            "AI ilan analizi oluşturulurken bir hata oluştu. Backend açık mı ve telefon PC ile aynı Wi-Fi ağında mı kontrol et."
-        );
-    } finally {
-        setIsLoading(false);
+        setVehicle((current) => ({
+            ...current,
+            brand: aliasSuggestion.brand || current.brand,
+            model: aliasSuggestion.model || current.model,
+        }));
     }
-}
+    async function handleCreateReport() {
+        try {
+            setIsLoading(true);
+
+            const response = await fetch(`${API_BASE_URL}/api/listing-analysis`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+    brand: vehicle.brand,
+    model: vehicle.model,
+    year: vehicle.year,
+    engine: vehicle.engine,
+    fuelType: vehicle.fuelType,
+    transmission: vehicle.transmission,
+    km: vehicle.mileage,
+    price: vehicle.price,
+    damageStatus: vehicle.damageInfo,
+    paintStatus: vehicle.damageInfo,
+    tramerAmount: vehicle.damageInfo,
+    sellerNote: vehicle.damageInfo,
+    technicalData: vehicle.technicalData,
+}),
+            });
+
+            const data = await response.json();
+
+            if (!response.ok || !data.ok) {
+                throw new Error(data?.message || "İlan analizi oluşturulamadı.");
+            }
+
+            const aiReport = data.report;
+
+            const report: any = {
+                summary: aiReport.summary || "İlan analizi oluşturuldu.",
+
+                listingRiskLevel: aiReport.listingRiskLevel || "Belirtilmedi",
+                riskLevel: aiReport.listingRiskLevel || "Belirtilmedi",
+
+                estimatedMarketRange: aiReport.estimatedMarketRange || "",
+                estimatedSimilarKmPrice: aiReport.estimatedSimilarKmPrice || "",
+                estimatedCleanPrice: aiReport.estimatedCleanPrice || "",
+                pricePosition: aiReport.pricePosition || "",
+                negotiationTarget: aiReport.negotiationTarget || "",
+
+                priceComment: aiReport.priceComment || "",
+                kmComment: aiReport.kmComment || "",
+                damageComment: aiReport.damageComment || "",
+
+                chronicIssues: [
+                    `Risk seviyesi: ${String(aiReport.listingRiskLevel || "Belirtilmedi")}`,
+                    String(aiReport.priceComment || "Fiyat yorumu alınamadı."),
+                    String(aiReport.kmComment || "Kilometre yorumu alınamadı."),
+                    String(aiReport.damageComment || "Hasar yorumu alınamadı."),
+                ].filter(Boolean),
+
+                engineTransmissionNotes: aiReport.mechanicalRisks || [],
+                maintenanceNotes: aiReport.negotiationPoints || [],
+                expertiseChecklist: aiReport.expertiseChecklist || [],
+                buyerQuestions: aiReport.buyerQuestions || [],
+
+                whoShouldBuy: [
+                    "Ekspertiz sonucu temiz çıkan ve servis geçmişi doğrulanabilen araçları değerlendirmek isteyen kullanıcılar.",
+                    "Fiyat, kilometre ve hasar durumunu birlikte analiz ederek karar vermek isteyen alıcılar.",
+                ],
+
+                whoShouldAvoid: [
+                    "Ekspertiz yaptırmadan araç almak isteyenler.",
+                    "Kilometre, tramer veya bakım geçmişi doğrulanamayan araçlardan kaçınmak isteyenler.",
+                ],
+
+                finalVerdict:
+                    aiReport.finalVerdict ||
+                    "Ekspertiz sonucu temiz çıkmadan ve servis geçmişi doğrulanmadan satın alınmamalıdır.",
+            };
+
+            setCurrentReport(report);
+
+            addSavedReport({
+                id: Date.now().toString(),
+                title: title || "Araç Raporu",
+                createdAt: new Date().toISOString(),
+                vehicle,
+                report,
+            });
+
+            router.push({
+                pathname: "/report-result",
+                params: vehicle,
+            });
+        } catch (error) {
+            console.log("Rapor oluşturma hatası:", error);
+
+            Alert.alert(
+                "Rapor oluşturulamadı",
+                "AI ilan analizi oluşturulurken bir hata oluştu. Backend açık mı ve telefon PC ile aynı Wi-Fi ağında mı kontrol et."
+            );
+        } finally {
+            setIsLoading(false);
+        }
+    }
 
     function handleEdit() {
         router.back();
+    }
+
+    if (isLoading) {
+        return (
+            <AnalysisLoading
+                title="İlan analizi hazırlanıyor..."
+                description="Fiyat, kilometre, hasar durumu ve araç bilgileri birlikte değerlendiriliyor."
+            />
+        );
     }
 
     return (
@@ -203,22 +218,22 @@ export default function ConfirmVehicleScreen() {
                     )}
                 </View>
                 {aliasSuggestion && (
-  <View style={styles.suggestionCard}>
-    <Text style={styles.suggestionTitle}>Yazım Önerisi</Text>
-    <Text style={styles.suggestionText}>{aliasSuggestion.message}</Text>
+                    <View style={styles.suggestionCard}>
+                        <Text style={styles.suggestionTitle}>Yazım Önerisi</Text>
+                        <Text style={styles.suggestionText}>{aliasSuggestion.message}</Text>
 
-    <TouchableOpacity
-      style={styles.applySuggestionButton}
-      onPress={applyAliasSuggestion}
-    >
-      <Text style={styles.applySuggestionButtonText}>Öneriyi Uygula</Text>
-    </TouchableOpacity>
+                        <TouchableOpacity
+                            style={styles.applySuggestionButton}
+                            onPress={applyAliasSuggestion}
+                        >
+                            <Text style={styles.applySuggestionButtonText}>Öneriyi Uygula</Text>
+                        </TouchableOpacity>
 
-    <Text style={styles.suggestionHint}>
-      Öneriyi uygularsan bilgiler bu ekranda otomatik düzelir.
-    </Text>
-  </View>
-)}
+                        <Text style={styles.suggestionHint}>
+                            Öneriyi uygularsan bilgiler bu ekranda otomatik düzelir.
+                        </Text>
+                    </View>
+                )}
 
                 <View style={styles.warningCard}>
                     <Text style={styles.warningTitle}>Küçük not</Text>
@@ -230,18 +245,10 @@ export default function ConfirmVehicleScreen() {
                 </View>
 
                 <TouchableOpacity
-                    style={[styles.primaryButton, isLoading && styles.buttonDisabled]}
+                    style={styles.primaryButton}
                     onPress={handleCreateReport}
-                    disabled={isLoading}
                 >
-                    {isLoading ? (
-                        <>
-                            <ActivityIndicator color="#111827" />
-                            <Text style={styles.primaryButtonText}> Rapor hazırlanıyor...</Text>
-                        </>
-                    ) : (
-                        <Text style={styles.primaryButtonText}>Doğru, Rapor Oluştur</Text>
-                    )}
+                    <Text style={styles.primaryButtonText}>Doğru, Rapor Oluştur</Text>
                 </TouchableOpacity>
 
                 <TouchableOpacity
@@ -257,45 +264,45 @@ export default function ConfirmVehicleScreen() {
 }
 
 function getVehicleValidationWarnings(vehicle: {
-  brand: string;
-  model: string;
-  year: string;
-  engine: string;
-  mileage: string;
-  price: string;
+    brand: string;
+    model: string;
+    year: string;
+    engine: string;
+    mileage: string;
+    price: string;
 }) {
-  const warnings: string[] = [];
+    const warnings: string[] = [];
 
-  const currentYear = new Date().getFullYear();
-  const yearNumber = Number(vehicle.year);
-  const mileageNumber = Number(vehicle.mileage);
-  const priceNumber = Number(vehicle.price);
+    const currentYear = new Date().getFullYear();
+    const yearNumber = Number(vehicle.year);
+    const mileageNumber = Number(vehicle.mileage);
+    const priceNumber = Number(vehicle.price);
 
-  if (vehicle.brand.trim().length < 2) {
-    warnings.push("Marka bilgisi çok kısa görünüyor.");
-  }
+    if (vehicle.brand.trim().length < 2) {
+        warnings.push("Marka bilgisi çok kısa görünüyor.");
+    }
 
-  if (vehicle.model.trim().length < 1) {
-    warnings.push("Model bilgisi boş veya çok kısa görünüyor.");
-  }
+    if (vehicle.model.trim().length < 1) {
+        warnings.push("Model bilgisi boş veya çok kısa görünüyor.");
+    }
 
-  if (!yearNumber || yearNumber < 1950 || yearNumber > currentYear + 1) {
-    warnings.push("Yıl bilgisi mantıklı aralıkta görünmüyor.");
-  }
+    if (!yearNumber || yearNumber < 1950 || yearNumber > currentYear + 1) {
+        warnings.push("Yıl bilgisi mantıklı aralıkta görünmüyor.");
+    }
 
-  if (!mileageNumber || mileageNumber < 0 || mileageNumber > 1000000) {
-    warnings.push("Kilometre bilgisi mantıklı aralıkta görünmüyor.");
-  }
+    if (!mileageNumber || mileageNumber < 0 || mileageNumber > 1000000) {
+        warnings.push("Kilometre bilgisi mantıklı aralıkta görünmüyor.");
+    }
 
-  if (!priceNumber || priceNumber < 10000) {
-    warnings.push("İlan fiyatı çok düşük veya geçersiz görünüyor.");
-  }
+    if (!priceNumber || priceNumber < 10000) {
+        warnings.push("İlan fiyatı çok düşük veya geçersiz görünüyor.");
+    }
 
-  if (vehicle.engine.trim().length < 2) {
-    warnings.push("Motor bilgisi çok kısa görünüyor.");
-  }
+    if (vehicle.engine.trim().length < 2) {
+        warnings.push("Motor bilgisi çok kısa görünüyor.");
+    }
 
-  return warnings;
+    return warnings;
 }
 
 function InfoRow({ label, value }: { label: string; value: string }) {
@@ -413,67 +420,67 @@ const styles = StyleSheet.create({
         opacity: 0.6,
     },
     checkCard: {
-  backgroundColor: "#172554",
-  borderRadius: 16,
-  padding: 14,
-  borderWidth: 1,
-  borderColor: "#1d4ed8",
-  marginBottom: 14,
-},
-checkTitle: {
-  color: "#bfdbfe",
-  fontSize: 15,
-  fontWeight: "900",
-  marginBottom: 6,
-},
-checkSuccess: {
-  color: "#dbeafe",
-  fontSize: 13,
-  lineHeight: 20,
-},
-checkWarning: {
-  color: "#dbeafe",
-  fontSize: 13,
-  lineHeight: 20,
-  marginBottom: 4,
-},
-suggestionCard: {
-  backgroundColor: "#312e81",
-  borderRadius: 16,
-  padding: 14,
-  borderWidth: 1,
-  borderColor: "#4f46e5",
-  marginBottom: 14,
-},
-suggestionTitle: {
-  color: "#c7d2fe",
-  fontSize: 15,
-  fontWeight: "900",
-  marginBottom: 6,
-},
-suggestionText: {
-  color: "#e0e7ff",
-  fontSize: 13,
-  lineHeight: 20,
-  fontWeight: "700",
-},
-suggestionHint: {
-  color: "#c7d2fe",
-  fontSize: 12,
-  lineHeight: 18,
-  marginTop: 8,
-},
-applySuggestionButton: {
-  height: 44,
-  borderRadius: 12,
-  backgroundColor: "#c7d2fe",
-  alignItems: "center",
-  justifyContent: "center",
-  marginTop: 12,
-},
-applySuggestionButtonText: {
-  color: "#111827",
-  fontSize: 14,
-  fontWeight: "900",
-},
+        backgroundColor: "#172554",
+        borderRadius: 16,
+        padding: 14,
+        borderWidth: 1,
+        borderColor: "#1d4ed8",
+        marginBottom: 14,
+    },
+    checkTitle: {
+        color: "#bfdbfe",
+        fontSize: 15,
+        fontWeight: "900",
+        marginBottom: 6,
+    },
+    checkSuccess: {
+        color: "#dbeafe",
+        fontSize: 13,
+        lineHeight: 20,
+    },
+    checkWarning: {
+        color: "#dbeafe",
+        fontSize: 13,
+        lineHeight: 20,
+        marginBottom: 4,
+    },
+    suggestionCard: {
+        backgroundColor: "#312e81",
+        borderRadius: 16,
+        padding: 14,
+        borderWidth: 1,
+        borderColor: "#4f46e5",
+        marginBottom: 14,
+    },
+    suggestionTitle: {
+        color: "#c7d2fe",
+        fontSize: 15,
+        fontWeight: "900",
+        marginBottom: 6,
+    },
+    suggestionText: {
+        color: "#e0e7ff",
+        fontSize: 13,
+        lineHeight: 20,
+        fontWeight: "700",
+    },
+    suggestionHint: {
+        color: "#c7d2fe",
+        fontSize: 12,
+        lineHeight: 18,
+        marginTop: 8,
+    },
+    applySuggestionButton: {
+        height: 44,
+        borderRadius: 12,
+        backgroundColor: "#c7d2fe",
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: 12,
+    },
+    applySuggestionButtonText: {
+        color: "#111827",
+        fontSize: 14,
+        fontWeight: "900",
+    },
 });

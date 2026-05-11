@@ -1,14 +1,14 @@
 import { router, useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import {
-    ActivityIndicator,
-    SafeAreaView,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
+  SafeAreaView,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
+import { AnalysisLoading } from "../components/AnalysisLoading";
 
 const API_BASE_URL = "http://192.168.1.103:3001";
 
@@ -67,6 +67,9 @@ export default function VehicleGuideResultScreen() {
           engine: params.engine,
           fuelType: params.fuelType,
           transmission: params.transmission,
+          technicalData: params.technicalData
+  ? JSON.parse(String(params.technicalData))
+  : null,
         }),
       });
 
@@ -90,6 +93,15 @@ export default function VehicleGuideResultScreen() {
 
   const report = data?.report;
 
+  if (loading) {
+  return (
+    <AnalysisLoading
+      title="Araç rehberi hazırlanıyor..."
+      description="Teknik bilgiler, kullanım karakteri ve dikkat edilmesi gerekenler analiz ediliyor."
+    />
+  );
+}
+
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView contentContainerStyle={styles.content}>
@@ -102,15 +114,6 @@ export default function VehicleGuideResultScreen() {
             {params.transmission ? ` · Şanzıman: ${params.transmission}` : ""}
           </Text>
         </View>
-
-        {loading && (
-          <View style={styles.loadingCard}>
-            <ActivityIndicator color="#facc15" size="large" />
-            <Text style={styles.loadingText}>
-              Wikipedia bilgisi alınıyor, araç rehberi hazırlanıyor...
-            </Text>
-          </View>
-        )}
 
         {!loading && error ? (
           <View style={styles.errorCard}>
@@ -126,15 +129,16 @@ export default function VehicleGuideResultScreen() {
         {!loading && report ? (
           <>
             <View style={styles.sourceCard}>
-              <Text style={styles.sourceTitle}>Veri Kaynağı</Text>
-              <Text style={styles.sourceText}>
-                Wikipedia başlığı: {data?.source?.wikipediaTitle || "Bulunamadı"}
-              </Text>
-              <Text style={styles.sourceSmallText}>
-                Bu bilgi genel model/kasa bilgisi için kullanılır. Fiyat analizi
-                değildir.
-              </Text>
-            </View>
+  <Text style={styles.sourceTitle}>Rapor Notu</Text>
+  <Text style={styles.sourceText}>
+    Bu değerlendirme; seçtiğin araç bilgileri, teknik veriler ve genel model
+    bilgileri kullanılarak hazırlanmıştır.
+  </Text>
+  <Text style={styles.sourceSmallText}>
+    Bu ekran fiyat analizi değildir. Satın almadan önce ekspertiz, servis
+    geçmişi ve ruhsat bilgileri mutlaka doğrulanmalıdır.
+  </Text>
+</View>
 
             <View style={styles.summaryCard}>
               <Text style={styles.summaryTitle}>Genel Değerlendirme</Text>
@@ -234,22 +238,6 @@ const styles = StyleSheet.create({
     color: "#d1d5db",
     fontSize: 14,
     lineHeight: 22,
-  },
-  loadingCard: {
-    backgroundColor: "#1f2937",
-    borderRadius: 18,
-    padding: 20,
-    borderWidth: 1,
-    borderColor: "#374151",
-    alignItems: "center",
-    marginBottom: 14,
-  },
-  loadingText: {
-    color: "#d1d5db",
-    fontSize: 14,
-    lineHeight: 21,
-    textAlign: "center",
-    marginTop: 12,
   },
   errorCard: {
     backgroundColor: "#7f1d1d",

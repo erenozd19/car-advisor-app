@@ -25,17 +25,57 @@ export default function ReportHistoryScreen() {
         router.push({
             pathname: "/report-result",
             params: {
-                brand: savedReport.vehicle.brand,
-                model: savedReport.vehicle.model,
-                year: savedReport.vehicle.year,
-                engine: savedReport.vehicle.engine,
-                fuelType: savedReport.vehicle.fuelType,
-                transmission: savedReport.vehicle.transmission,
-                mileage: savedReport.vehicle.mileage,
-                price: savedReport.vehicle.price,
-                damageInfo: savedReport.vehicle.damageInfo,
+                brand: savedReport.vehicle?.brand || "",
+                model: savedReport.vehicle?.model || "",
+                year: savedReport.vehicle?.year || "",
+                engine: savedReport.vehicle?.engine || "",
+                fuelType: savedReport.vehicle?.fuelType || "",
+                transmission: savedReport.vehicle?.transmission || "",
+                mileage: savedReport.vehicle?.mileage || "",
+                price: savedReport.vehicle?.price || "",
+                damageInfo: savedReport.vehicle?.damageInfo || "",
             },
         });
+    }
+
+    function formatScore(score: unknown) {
+        if (typeof score !== "number") return "Skor yok";
+        return score.toFixed(1);
+    }
+
+    function formatNumber(value: unknown, suffix: string) {
+        const numberValue = Number(value);
+
+        if (!value || Number.isNaN(numberValue)) {
+            return "Belirtilmedi";
+        }
+
+        return `${numberValue.toLocaleString("tr-TR")} ${suffix}`;
+    }
+
+    function formatDate(value: unknown) {
+        if (!value) return "Tarih yok";
+
+        const date = new Date(String(value));
+
+        if (Number.isNaN(date.getTime())) {
+            return "Tarih yok";
+        }
+
+        return date.toLocaleDateString("tr-TR", {
+            day: "2-digit",
+            month: "2-digit",
+            year: "numeric",
+            hour: "2-digit",
+            minute: "2-digit",
+        });
+    }
+
+    function getDecisionText(report: any) {
+        const decision = report?.decision || "Değerlendirme yok";
+        const riskLevel = report?.riskLevel ? `${report.riskLevel} Risk` : "Risk bilgisi yok";
+
+        return `${decision} · ${riskLevel}`;
     }
 
     function handleClearHistory() {
@@ -85,26 +125,37 @@ export default function ReportHistoryScreen() {
                             onPress={() => openReport(item.id)}
                         >
                             <View style={styles.reportTopRow}>
-                                <Text style={styles.reportTitle}>{item.title || "Araç Raporu"}</Text>
-                                <Text style={styles.score}>{item.report.score.toFixed(1)}</Text>
+                                <Text style={styles.reportTitle}>
+                                    {item.title || "Araç Raporu"}
+                                </Text>
+
+                                <Text style={styles.score}>
+                                    {formatScore(item.report?.score)}
+                                </Text>
                             </View>
 
                             <Text style={styles.reportMeta}>
-                                {Number(item.vehicle.mileage).toLocaleString("tr-TR")} km ·{" "}
-                                {Number(item.vehicle.price).toLocaleString("tr-TR")} TL
+                                {formatNumber(item.vehicle?.mileage, "km")} ·{" "}
+                                {formatNumber(item.vehicle?.price, "TL")}
+                            </Text>
+
+                            <Text style={styles.reportDate}>
+                                {formatDate(item.createdAt)}
                             </Text>
 
                             <Text style={styles.reportDecision}>
-                                {item.report.decision} · {item.report.riskLevel} Risk
+                                {getDecisionText(item.report)}
                             </Text>
                         </TouchableOpacity>
                     ))
                 )}
+
                 {savedReports.length > 0 && (
                     <TouchableOpacity style={styles.dangerButton} onPress={handleClearHistory}>
                         <Text style={styles.dangerButtonText}>Geçmiş Raporları Temizle</Text>
                     </TouchableOpacity>
                 )}
+
                 <TouchableOpacity style={styles.backButton} onPress={() => router.push("/")}>
                     <Text style={styles.backButtonText}>Ana Sayfaya Dön</Text>
                 </TouchableOpacity>
@@ -159,23 +210,31 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         gap: 12,
-        alignItems: "center",
+        alignItems: "flex-start",
     },
     reportTitle: {
         color: "#ffffff",
         fontSize: 17,
         fontWeight: "900",
         flex: 1,
+        lineHeight: 23,
     },
     score: {
         color: "#facc15",
-        fontSize: 22,
+        fontSize: 18,
         fontWeight: "900",
+        textAlign: "right",
+        maxWidth: 90,
     },
     reportMeta: {
         color: "#d1d5db",
         fontSize: 14,
         marginTop: 8,
+    },
+    reportDate: {
+        color: "#94a3b8",
+        fontSize: 13,
+        marginTop: 6,
     },
     reportDecision: {
         color: "#facc15",
@@ -208,19 +267,19 @@ const styles = StyleSheet.create({
         fontSize: 16,
         fontWeight: "800",
     },
-dangerButton: {
-  height: 54,
-  borderRadius: 14,
-  backgroundColor: "#7f1d1d",
-  alignItems: "center",
-  justifyContent: "center",
-  marginTop: 16,
-  borderWidth: 1,
-  borderColor: "#991b1b",
-},
-dangerButtonText: {
-  color: "#ffffff",
-  fontSize: 16,
-  fontWeight: "900",
-},
+    dangerButton: {
+        height: 54,
+        borderRadius: 14,
+        backgroundColor: "#7f1d1d",
+        alignItems: "center",
+        justifyContent: "center",
+        marginTop: 16,
+        borderWidth: 1,
+        borderColor: "#991b1b",
+    },
+    dangerButtonText: {
+        color: "#ffffff",
+        fontSize: 16,
+        fontWeight: "900",
+    },
 });

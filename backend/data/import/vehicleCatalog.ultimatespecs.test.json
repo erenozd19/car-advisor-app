@@ -1,0 +1,1397 @@
+[
+  {
+    "brand": "Volkswagen",
+    "models": [
+      {
+        "name": "Golf",
+        "generations": [
+          {
+            "name": "Golf 8",
+            "startYear": 2020,
+            "endYear": 2024,
+            "bodyType": "Hatchback",
+            "engines": [
+              {
+                "label": "1.0 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/119328/Volkswagen-Golf-8-10-TSI-90HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 1.0 TSI 90HP Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 1.0 TSI 90HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 eTSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/121266/Volkswagen-Golf-8-10-eTSI-110HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 1.0 eTSI 110HP Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 1.0 eTSI 110HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/119326/Volkswagen-Golf-8-10-TSI-110HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 1.0 TSI 110HP Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 1.0 TSI 110HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 eHybrid",
+                "fuelType": "Hibrit",
+                "engineVolume": "1.4",
+                "powerHp": 204,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/121175/Volkswagen-Golf-8-14-eHybrid-204HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 1.4 eHybrid 204HP Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 1.4 eHybrid 204HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 eHybrid GTE",
+                "fuelType": "Hibrit",
+                "engineVolume": "1.4",
+                "powerHp": 245,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/121176/Volkswagen-Golf-8-14-eHybrid-245HP-GTE.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 1.4 eHybrid 245HP GTE Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 1.4 eHybrid 245HP GTE"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 eTSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 130,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/123197/Volkswagen-Golf-8-15-eTSI-130HP-DSG.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 1.5 eTSI 130HP DSG Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 1.5 eTSI 130HP DSG"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.5 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 130,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/118818/Volkswagen-Golf-8-15-TSI-130HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 1.5 TSI 130HP Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 1.5 TSI 130HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 eTSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/118819/Volkswagen-Golf-8-15-eTSI-150HP-DSG.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 1.5 eTSI 150HP DSG Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 1.5 eTSI 150HP DSG"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.5 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/134149/Volkswagen-Golf-8-15-TSI-150HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 1.5 TSI 150HP Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 1.5 TSI 150HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "2.0 TDI",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 115,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/118823/Volkswagen-Golf-8-20-TDI-115HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 2.0 TDI 115HP Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 2.0 TDI 115HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "DSG"
+                ]
+              },
+              {
+                "label": "2.0 TDI",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/134153/Volkswagen-Golf-8-20-TDI-150HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M10528/Golf-8",
+                  "generationLinkTitle": "Golf 816 Versions",
+                  "rawRowText": "Golf 2.0 TDI 150HP Specs",
+                  "detectedYear": 2020,
+                  "originalLabel": "Golf 2.0 TDI 150HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "DSG"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Golf 7 Facelift",
+            "startYear": 2017,
+            "endYear": 2020,
+            "bodyType": "Hatchback",
+            "engines": []
+          },
+          {
+            "name": "Golf 7",
+            "startYear": 2012,
+            "endYear": 2017,
+            "bodyType": "Hatchback",
+            "engines": [
+              {
+                "label": "1.0 TSI BlueMotion",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 115,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/72766/Volkswagen-Golf-7-10-TSI-115HP-BlueMotion.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.0 TSI 115HP BlueMotion Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.0 TSI 115HP BlueMotion"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 TSI 7 speed",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63738/Volkswagen-Golf-7-12-TSI-105-HP-DSG-7-speed.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.2 TSI 105 HP DSG 7 speed Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.2 TSI 105 HP DSG 7 speed"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.2 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63732/Volkswagen-Golf-7-12-TSI-105HP-.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.2 TSI 105HP Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.2 TSI 105HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/74251/Volkswagen-Golf-7-12-TSI-110HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.2 TSI 110HP Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.2 TSI 110HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 TSI 7 Speeds",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/105768/Volkswagen-Golf-7-12-TSI-110HP-DSG-7-Speeds.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.2 TSI 110HP DSG 7 Speeds Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.2 TSI 110HP DSG 7 Speeds"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TGI BlueMotion",
+                "fuelType": "Diğer",
+                "engineVolume": "1.4",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/70762/Volkswagen-Golf-7-14-TGI-BlueMotion-110HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TGI BlueMotion 110HP Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TGI BlueMotion 110HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TGI BlueMotion 7 Speeds",
+                "fuelType": "Diğer",
+                "engineVolume": "1.4",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/70763/Volkswagen-Golf-7-14-TGI-BlueMotion-110HP-DSG-7-Speeds.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TGI BlueMotion 110HP DSG 7 Speeds Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TGI BlueMotion 110HP DSG 7 Speeds"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI 7 speed Advance",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 122,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63426/Volkswagen-Golf-7-14-TSI-122-HP-DSG-7-speed-Advance.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 122 HP DSG 7 speed Advance Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 122 HP DSG 7 speed Advance"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI 7 speed Sport",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 122,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63432/Volkswagen-Golf-7-14-TSI-122-HP-DSG-7-speed-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 122 HP DSG 7 speed Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 122 HP DSG 7 speed Sport"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI Advance",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 122,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63415/Volkswagen-Golf-7-14-TSI-122HP--Advance.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 122HP Advance Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 122HP Advance"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TSI Sport",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 122,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63420/Volkswagen-Golf-7-14-TSI-122HP--Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 122HP Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 122HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TSI 7 Speed Sport by R-Line",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 122,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/66454/Volkswagen-Golf-7-14-TSI-122HP-DSG-7-Speed-Sport-by-R-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 122HP DSG 7 Speed Sport by R-Line Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 122HP DSG 7 Speed Sport by R-Line"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI Sport by R-Line",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 122,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/66448/Volkswagen-Golf-7-14-TSI-122HP-Sport-by-R-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 122HP Sport by R-Line Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 122HP Sport by R-Line"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 125,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/72779/Volkswagen-Golf-7-14-TSI-125HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 125HP Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 125HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TSI 7 Speeds",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 125,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/72781/Volkswagen-Golf-7-14-TSI-125HP-DSG-7-Speeds.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 125HP DSG 7 Speeds Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 125HP DSG 7 Speeds"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech Advance",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63457/Volkswagen-Golf-7-14-TSI-140-HP-ACT-Tech-Advance.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 140 HP ACT Tech Advance Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 140 HP ACT Tech Advance"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech 7 speed Advance",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63466/Volkswagen-Golf-7-14-TSI-140-HP-ACT-Tech-DSG-7-speed-Advance.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 140 HP ACT Tech DSG 7 speed Advance Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 140 HP ACT Tech DSG 7 speed Advance"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech 7 speed Sport",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63471/Volkswagen-Golf-7-14-TSI-140-HP-ACT-Tech-DSG-7-speed-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 140 HP ACT Tech DSG 7 speed Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 140 HP ACT Tech DSG 7 speed Sport"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech Sport",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63462/Volkswagen-Golf-7-14-TSI-140-HP-ACT-Tech-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 140 HP ACT Tech Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 140 HP ACT Tech Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TSI 7 speed Advance",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63447/Volkswagen-Golf-7-14-TSI-140-HP-DSG-7-speed-Advance.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 140 HP DSG 7 speed Advance Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 140 HP DSG 7 speed Advance"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI 7 speed Sport",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63452/Volkswagen-Golf-7-14-TSI-140-HP-DSG-7-speed-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 140 HP DSG 7 speed Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 140 HP DSG 7 speed Sport"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI Advance",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63437/Volkswagen-Golf-7-14-TSI-140HP--Advance.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 140HP Advance Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 140HP Advance"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TSI Sport",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63442/Volkswagen-Golf-7-14-TSI-140HP--Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI 140HP Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI 140HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech 7 Speed Sport by R-Line",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/66468/Volkswagen-Golf-7-14-TSI-ACT-Tech-140HP-DSG-7-Speed-Sport-by-R-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI ACT Tech 140HP DSG 7 Speed Sport by R-Line Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI ACT Tech 140HP DSG 7 Speed Sport by R-Line"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech 7 Speeds Sport",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/68776/Volkswagen-Golf-7-14-TSI-ACT-Tech-140HP-DSG-7-Speeds-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI ACT Tech 140HP DSG 7 Speeds Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI ACT Tech 140HP DSG 7 Speeds Sport"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech Sport by R-Line",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 140,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/66461/Volkswagen-Golf-7-14-TSI-ACT-Tech-140HP-Sport-by-R-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI ACT Tech 140HP Sport by R-Line Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI ACT Tech 140HP Sport by R-Line"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech 7 Speeds Sport",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/70767/Volkswagen-Golf-7-14-TSI-ACT-Tech-150HP-DSG-7-Speeds-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI ACT Tech 150HP DSG 7 Speeds Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI ACT Tech 150HP DSG 7 Speeds Sport"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech 7 Speeds Sport by R-Line",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/70771/Volkswagen-Golf-7-14-TSI-ACT-Tech-150HP-DSG-7-Speeds-Sport-by-R-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI ACT Tech 150HP DSG 7 Speeds Sport by R-Line Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI ACT Tech 150HP DSG 7 Speeds Sport by R-Line"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech Sport",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/70766/Volkswagen-Golf-7-14-TSI-ACT-Tech-150HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI ACT Tech 150HP Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI ACT Tech 150HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 TSI ACT Tech Sport by R-Line",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/70770/Volkswagen-Golf-7-14-TSI-ACT-Tech-150HP-Sport-by-R-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.4 TSI ACT Tech 150HP Sport by R-Line Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.4 TSI ACT Tech 150HP Sport by R-Line"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR 7 speed Advance",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63405/Volkswagen-Golf-7-16-TDI-CR-105-HP-DSG-7-speed-Advance.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 105 HP DSG 7 speed Advance Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 105 HP DSG 7 speed Advance"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR 7 speed Edition",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63758/Volkswagen-Golf-7-16-TDI-CR-105-HP-DSG-7-speed-Edition.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 105 HP DSG 7 speed Edition Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 105 HP DSG 7 speed Edition"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR 7 speed Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63410/Volkswagen-Golf-7-16-TDI-CR-105-HP-DSG-7-speed-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 105 HP DSG 7 speed Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 105 HP DSG 7 speed Sport"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR Advance",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63748/Volkswagen-Golf-7-16-TDI-CR-105HP--Advance.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 105HP Advance Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 105HP Advance"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR Edition",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63743/Volkswagen-Golf-7-16-TDI-CR-105HP--Edition.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 105HP Edition Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 105HP Edition"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63753/Volkswagen-Golf-7-16-TDI-CR-105HP--Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 105HP Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 105HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR 7 Speed Sport by R-Line",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/66480/Volkswagen-Golf-7-16-TDI-CR-105HP-DSG-7-Speed-Sport-by-R-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 105HP DSG 7 Speed Sport by R-Line Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 105HP DSG 7 Speed Sport by R-Line"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR 7 Speeds Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/68778/Volkswagen-Golf-7-16-TDI-CR-105HP-DSG-7-Speeds-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 105HP DSG 7 Speeds Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 105HP DSG 7 Speeds Sport"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR Sport by R-Line",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/66474/Volkswagen-Golf-7-16-TDI-CR-105HP-Sport-by-R-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 105HP Sport by R-Line Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 105HP Sport by R-Line"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/74252/Volkswagen-Golf-7-16-TDI-CR-110HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 110HP Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 110HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR BlueMotion",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/65808/Volkswagen-Golf-7-16-TDI-CR-110HP-BlueMotion.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 110HP BlueMotion Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 110HP BlueMotion"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 TDI CR 7 Speeds",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/105770/Volkswagen-Golf-7-16-TDI-CR-110HP-DSG-7-Speeds.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 1.6 TDI CR 110HP DSG 7 Speeds Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 1.6 TDI CR 110HP DSG 7 Speeds"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "2.0 TDI CR 4Motion Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/64519/Volkswagen-Golf-7-20-TDI-CR-150-HP-4Motion-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 2.0 TDI CR 150 HP 4Motion Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 2.0 TDI CR 150 HP 4Motion Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "2.0 TDI CR",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/105766/Volkswagen-Golf-7-20-TDI-CR-150HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 2.0 TDI CR 150HP Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 2.0 TDI CR 150HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "2.0 TDI CR Advance",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63476/Volkswagen-Golf-7-20-TDI-CR-150HP--Advance.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 2.0 TDI CR 150HP Advance Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 2.0 TDI CR 150HP Advance"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "2.0 TDI CR Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/63481/Volkswagen-Golf-7-20-TDI-CR-150HP--Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 2.0 TDI CR 150HP Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 2.0 TDI CR 150HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "2.0 TDI CR 4Motion Sport by R-Line",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/66492/Volkswagen-Golf-7-20-TDI-CR-150HP-4Motion-Sport-by-R-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 2.0 TDI CR 150HP 4Motion Sport by R-Line Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 2.0 TDI CR 150HP 4Motion Sport by R-Line"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "2.0 TDI CR 6 Speeds Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/68781/Volkswagen-Golf-7-20-TDI-CR-150HP-DSG-6-Speeds-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 2.0 TDI CR 150HP DSG 6 Speeds Sport Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 2.0 TDI CR 150HP DSG 6 Speeds Sport"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "2.0 TDI CR Sport by R-Line",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 150,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/66486/Volkswagen-Golf-7-20-TDI-CR-150HP-Sport-by-R-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf 2.0 TDI CR 150HP Sport by R-Line Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf 2.0 TDI CR 150HP Sport by R-Line"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "GTD 2.0 TDI",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 184,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/64736/Volkswagen-Golf-7-GTD-20-TDI-184HP-.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf GTD 2.0 TDI 184HP Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf GTD 2.0 TDI 184HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "GTD 2.0 TDI 6 Speeds",
+                "fuelType": "Dizel",
+                "engineVolume": "2.0",
+                "powerHp": 184,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/67900/Volkswagen-Golf-7-GTD-20-TDI-184HP-DSG-6-Speeds.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf GTD 2.0 TDI 184HP DSG 6 Speeds Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf GTD 2.0 TDI 184HP DSG 6 Speeds"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "GTI 2.0 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "2.0",
+                "powerHp": 220,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/65173/Volkswagen-Golf-7-GTI-20-TSI-220HP-.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf GTI 2.0 TSI 220HP Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf GTI 2.0 TSI 220HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "GTI 2.0 TSI 6 Speeds",
+                "fuelType": "Benzin",
+                "engineVolume": "2.0",
+                "powerHp": 220,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/74248/Volkswagen-Golf-7-GTI-20-TSI-220HP-DSG-6-Speeds.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf GTI 2.0 TSI 220HP DSG 6 Speeds Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf GTI 2.0 TSI 220HP DSG 6 Speeds"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "GTI Performance 2.0 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "2.0",
+                "powerHp": 230,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/65179/Volkswagen-Golf-7-GTI-Performance-20-TSI-230HP-.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf GTI Performance 2.0 TSI 230HP Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf GTI Performance 2.0 TSI 230HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "GTI Performance 2.0 TSI 6 Speeds",
+                "fuelType": "Benzin",
+                "engineVolume": "2.0",
+                "powerHp": 230,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/74250/Volkswagen-Golf-7-GTI-Performance-20-TSI-230HP-DSG-6-Speeds.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf GTI Performance 2.0 TSI 230HP DSG 6 Speeds Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf GTI Performance 2.0 TSI 230HP DSG 6 Speeds"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              },
+              {
+                "label": "R 2.0 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "2.0",
+                "powerHp": 300,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/68729/Volkswagen-Golf-7-R-20-TSI-300HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf R 2.0 TSI 300HP Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf R 2.0 TSI 300HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "R 2.0 TSI 6 Speeds",
+                "fuelType": "Benzin",
+                "engineVolume": "2.0",
+                "powerHp": 300,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Volkswagen/68730/Volkswagen-Golf-7-R-20-TSI-300HP-DSG-6-Speeds.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Volkswagen/M6523/Golf-7",
+                  "generationLinkTitle": "Golf 767 Versions",
+                  "rawRowText": "Golf R 2.0 TSI 300HP DSG 6 Speeds Specs",
+                  "detectedYear": 2012,
+                  "originalLabel": "Golf R 2.0 TSI 300HP DSG 6 Speeds"
+                },
+                "transmissions": [
+                  "DSG"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,78 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Brand {
+  id        String         @id @default(cuid())
+  name      String         @unique
+  models    VehicleModel[]
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+}
+
+model VehicleModel {
+  id          String       @id @default(cuid())
+  brandId     String
+  name        String
+  brand       Brand        @relation(fields: [brandId], references: [id], onDelete: Cascade)
+  generations Generation[]
+  createdAt   DateTime     @default(now())
+  updatedAt   DateTime     @updatedAt
+
+  @@unique([brandId, name])
+}
+
+model Generation {
+  id        String         @id @default(cuid())
+  modelId   String
+  name      String
+  startYear Int?
+  endYear   Int?
+  bodyType  String?
+  model     VehicleModel   @relation(fields: [modelId], references: [id], onDelete: Cascade)
+  engines   EngineOption[]
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+}
+
+model EngineOption {
+  id             String               @id @default(cuid())
+  generationId   String
+  label          String
+  fuelType       String?
+  engineVolume   String?
+  powerHp        Int?
+  torqueNm       Int?
+  sourceName     String?
+  sourceUrl      String?
+  specs          Json?
+  generation     Generation           @relation(fields: [generationId], references: [id], onDelete: Cascade)
+  transmissions  TransmissionOption[]
+  createdAt      DateTime             @default(now())
+  updatedAt      DateTime             @updatedAt
+}
+
+model TransmissionOption {
+  id        String       @id @default(cuid())
+  engineId  String
+  label     String
+  engine    EngineOption @relation(fields: [engineId], references: [id], onDelete: Cascade)
+  createdAt DateTime     @default(now())
+  updatedAt DateTime     @updatedAt
+
+  @@unique([engineId, label])
+}
+
+model AnalysisReport {
+  id              String   @id @default(cuid())
+  analysisType    String
+  vehiclePayload  Json
+  userInputs      Json?
+  aiReport        Json
+  confidenceScore Int?
+  createdAt       DateTime @default(now())
+}

@@ -1,19 +1,30 @@
 import { router } from "expo-router";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
-    Alert,
-    KeyboardAvoidingView,
-    Platform,
-    SafeAreaView,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TextInput,
-    View
+  Alert,
+  KeyboardAvoidingView,
+  Platform,
+  SafeAreaView,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TextInput,
+  View,
 } from "react-native";
 import { AppButton } from "../components/AppButton";
 import { SelectField } from "../components/SelectField";
-import { vehicleDatabase } from "../data/vehicleDatabase";
+import {
+  Brand,
+  EngineOption,
+  getBrands,
+  getEnginesByModelYear,
+  getModels,
+  getTransmissions,
+  getYears,
+  TransmissionOption,
+  VehicleModel,
+} from "./src/services/vehicleCatalogApi";
+
 const damageOptions = [
   "Bilmiyorum",
   "Hasarsız / Tramersiz",
@@ -34,17 +45,35 @@ export default function CreateReportScreen() {
   const [damageStatus, setDamageStatus] = useState("");
   const [extraNote, setExtraNote] = useState("");
 
-  const selectedBrand = vehicleDatabase.find((item) => item.name === brand);
-  const selectedModel = selectedBrand?.models.find((item) => item.name === model);
-  const selectedEngine = selectedModel?.engines.find((item) => item.name === engine);
+  const [brandId, setBrandId] = useState("");
+  const [modelId, setModelId] = useState("");
+  const [engineId, setEngineId] = useState("");
 
-  const availableModels = selectedBrand?.models || [];
-  const availableYears = selectedModel?.years || [];
-  const availableEngines = selectedModel?.engines || [];
-  const availableTransmissions = selectedEngine?.transmissions || [];
+  const [brands, setBrands] = useState<Brand[]>([]);
+  const [models, setModels] = useState<VehicleModel[]>([]);
+  const [years, setYears] = useState<string[]>([]);
+  const [engines, setEngines] = useState<EngineOption[]>([]);
+  const [transmissions, setTransmissions] = useState<TransmissionOption[]>([]);
 
+  const [catalogError, setCatalogError] = useState("");
+
+  const selectedEngine = engines.find((item) => item.id === engineId);
   const fuelType = selectedEngine?.fuelType || "";
-
+  const selectedEngineTechnicalData = selectedEngine
+    ? {
+      label: selectedEngine.label,
+      fuelType: selectedEngine.fuelType || "",
+      engineVolume: selectedEngine.engineVolume || "",
+      powerHp: selectedEngine.powerHp || null,
+      torqueNm: selectedEngine.torqueNm || null,
+      sourceName: selectedEngine.sourceName || "",
+      sourceUrl: selectedEngine.sourceUrl || "",
+      sourceUrls: selectedEngine.sourceUrls || [],
+      powerOptions: selectedEngine.powerOptions || [],
+      transmissionLabels: selectedEngine.transmissionLabels || [],
+      generationName: selectedEngine.generationName || "",
+    }
+    : null;
   const isFormValid =
     brand &&
     model &&
@@ -59,24 +88,160 @@ export default function CreateReportScreen() {
     return `${year} ${brand} ${model} ${engine}`.trim();
   }, [brand, model, year, engine]);
 
+  useEffect(() => {
+    async function loadBrands() {
+      try {
+        setCatalogError("");
+        const data = await getBrands();
+        setBrands(data);
+      } catch (error) {
+        console.log("Markalar alınamadı:", error);
+        setCatalogError("Markalar alınamadı. Backend açık mı kontrol et.");
+      }
+    }
+
+    loadBrands();
+  }, []);
+
+  useEffect(() => {
+    if (!brandId) return;
+
+    async function loadModels() {
+      try {
+        setCatalogError("");
+        const data = await getModels(brandId);
+        setModels(data);
+      } catch (error) {
+        console.log("Modeller alınamadı:", error);
+        setCatalogError("Modeller alınamadı.");
+      }
+    }
+
+    loadModels();
+  }, [brandId]);
+
+  useEffect(() => {
+    if (!modelId) return;
+
+    async function loadYears() {
+      try {
+        setCatalogError("");
+        const data = await getYears(modelId);
+        setYears(data);
+      } catch (error) {
+        console.log("Yıllar alınamadı:", error);
+        setCatalogError("Yıllar alınamadı.");
+      }
+    }
+
+    loadYears();
+  }, [modelId]);
+
+  useEffect(() => {
+    if (!modelId || !year) return;
+
+    async function loadEngines() {
+      try {
+        setCatalogError("");
+        const data = await getEnginesByModelYear(modelId, year);
+        setEngines(data);
+      } catch (error) {
+        console.log("Motorlar alınamadı:", error);
+        setCatalogError("Motorlar alınamadı.");
+      }
+    }
+
+    loadEngines();
+  }, [modelId, year]);
+
+  useEffect(() => {
+    if (!engineId) return;
+
+    async function loadTransmissions() {
+      try {
+        setCatalogError("");
+        const data = await getTransmissions(engineId);
+        setTransmissions(data);
+      } catch (error) {
+        console.log("Şanzımanlar alınamadı:", error);
+        setCatalogError("Şanzımanlar alınamadı.");
+      }
+    }
+
+    loadTransmissions();
+  }, [engineId]);
+
   function selectBrand(value: string) {
+    const selected = brands.find((item) => item.name === value);
+
     setBrand(value);
+    setBrandId(selected?.id || "");
+
     setModel("");
+    setModelId("");
     setYear("");
     setEngine("");
+    setEngineId("");
     setTransmission("");
+    setMileage("");
+    setPrice("");
+    setDamageStatus("");
+    setExtraNote("");
+
+    setModels([]);
+    setYears([]);
+    setEngines([]);
+    setTransmissions([]);
   }
 
   function selectModel(value: string) {
+    const selected = models.find((item) => item.name === value);
+
     setModel(value);
+    setModelId(selected?.id || "");
+
     setYear("");
     setEngine("");
+    setEngineId("");
     setTransmission("");
+    setMileage("");
+    setPrice("");
+    setDamageStatus("");
+    setExtraNote("");
+
+    setYears([]);
+    setEngines([]);
+    setTransmissions([]);
+  }
+
+  function selectYear(value: string) {
+    setYear(value);
+
+    setEngine("");
+    setEngineId("");
+    setTransmission("");
+    setMileage("");
+    setPrice("");
+    setDamageStatus("");
+    setExtraNote("");
+
+    setEngines([]);
+    setTransmissions([]);
   }
 
   function selectEngine(value: string) {
+    const selected = engines.find((item) => item.label === value);
+
     setEngine(value);
+    setEngineId(selected?.id || "");
+
     setTransmission("");
+    setMileage("");
+    setPrice("");
+    setDamageStatus("");
+    setExtraNote("");
+
+    setTransmissions([]);
   }
 
   function handleAnalyze() {
@@ -104,6 +269,9 @@ export default function CreateReportScreen() {
         mileage,
         price,
         damageInfo,
+        technicalData: selectedEngineTechnicalData
+          ? JSON.stringify(selectedEngineTechnicalData)
+          : "",
       },
     });
   }
@@ -122,10 +290,16 @@ export default function CreateReportScreen() {
             araç alınır mı, fiyatı mantıklı mı analiz edelim.
           </Text>
 
+          {catalogError ? (
+            <View style={styles.warningCard}>
+              <Text style={styles.warningText}>{catalogError}</Text>
+            </View>
+          ) : null}
+
           <SelectField
             label="Marka Seç *"
             placeholder="Marka seç"
-            options={vehicleDatabase.map((item) => item.name)}
+            options={brands.map((item) => item.name)}
             selectedValue={brand}
             onSelect={selectBrand}
           />
@@ -134,7 +308,7 @@ export default function CreateReportScreen() {
             <SelectField
               label="Model Seç *"
               placeholder="Model seç"
-              options={availableModels.map((item) => item.name)}
+              options={models.map((item) => item.name)}
               selectedValue={model}
               onSelect={selectModel}
             />
@@ -144,9 +318,9 @@ export default function CreateReportScreen() {
             <SelectField
               label="Yıl Seç *"
               placeholder="Yıl seç"
-              options={availableYears.map(String)}
+              options={years}
               selectedValue={year}
-              onSelect={setYear}
+              onSelect={selectYear}
             />
           )}
 
@@ -154,7 +328,7 @@ export default function CreateReportScreen() {
             <SelectField
               label="Motor Seç *"
               placeholder="Motor seç"
-              options={availableEngines.map((item) => item.name)}
+              options={engines.map((item) => item.label)}
               selectedValue={engine}
               onSelect={selectEngine}
             />
@@ -163,7 +337,7 @@ export default function CreateReportScreen() {
           {engine && (
             <View style={styles.infoCard}>
               <Text style={styles.infoLabel}>Yakıt Tipi</Text>
-              <Text style={styles.infoValue}>{fuelType}</Text>
+              <Text style={styles.infoValue}>{fuelType || "Belirtilmedi"}</Text>
             </View>
           )}
 
@@ -171,7 +345,7 @@ export default function CreateReportScreen() {
             <SelectField
               label="Şanzıman Seç *"
               placeholder="Şanzıman seç"
-              options={availableTransmissions}
+              options={transmissions.map((item) => item.label)}
               selectedValue={transmission}
               onSelect={setTransmission}
             />
@@ -224,20 +398,20 @@ export default function CreateReportScreen() {
                 </Text>
 
                 <Text style={styles.previewSubText}>
-                  Yakıt: {fuelType}
+                  Yakıt: {fuelType || "Belirtilmedi"}
                   {transmission ? ` · Şanzıman: ${transmission}` : ""}
                 </Text>
 
                 <Text style={styles.previewSubText}>
                   {mileage
                     ? `KM: ${Number(mileage.replace(/\D/g, "")).toLocaleString(
-                        "tr-TR"
-                      )} km`
+                      "tr-TR"
+                    )} km`
                     : "KM girilmedi"}
                   {price
                     ? ` · Fiyat: ${Number(price.replace(/\D/g, "")).toLocaleString(
-                        "tr-TR"
-                      )} TL`
+                      "tr-TR"
+                    )} TL`
                     : ""}
                 </Text>
 
@@ -247,11 +421,11 @@ export default function CreateReportScreen() {
               </View>
 
               <AppButton
-  title="Devam Et"
-  onPress={handleAnalyze}
-  disabled={!isFormValid}
-  style={{ marginTop: 4 }}
-/>
+                title="Devam Et"
+                onPress={handleAnalyze}
+                disabled={!isFormValid}
+                style={{ marginTop: 4 }}
+              />
             </>
           )}
 
@@ -264,7 +438,6 @@ export default function CreateReportScreen() {
     </SafeAreaView>
   );
 }
-
 
 const styles = StyleSheet.create({
   container: {
@@ -286,6 +459,20 @@ const styles = StyleSheet.create({
     fontSize: 15,
     lineHeight: 22,
     marginBottom: 18,
+  },
+  warningCard: {
+    backgroundColor: "#292524",
+    borderRadius: 16,
+    padding: 14,
+    borderWidth: 1,
+    borderColor: "#57534e",
+    marginBottom: 16,
+  },
+  warningText: {
+    color: "#facc15",
+    fontSize: 13,
+    lineHeight: 20,
+    fontWeight: "700",
   },
   infoCard: {
     backgroundColor: "#1f2937",

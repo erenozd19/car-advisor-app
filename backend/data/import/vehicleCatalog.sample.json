@@ -1,0 +1,166 @@
+[
+  {
+    "brand": "Volkswagen",
+    "models": [
+      {
+        "name": "Golf",
+        "generations": [
+          {
+            "name": "Golf 7",
+            "startYear": 2013,
+            "endYear": 2020,
+            "bodyType": "Hatchback",
+            "engines": [
+              {
+                "label": "1.2 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 105,
+                "torqueNm": 175,
+                "sourceName": "Sample import",
+                "transmissions": ["Manuel", "DSG"]
+              },
+              {
+                "label": "1.4 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 125,
+                "torqueNm": 200,
+                "sourceName": "Sample import",
+                "transmissions": ["Manuel", "DSG"]
+              },
+              {
+                "label": "1.6 TDI",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 115,
+                "torqueNm": 250,
+                "sourceName": "Sample import",
+                "transmissions": ["Manuel", "DSG"]
+              }
+            ]
+          },
+          {
+            "name": "Golf 8",
+            "startYear": 2020,
+            "endYear": null,
+            "bodyType": "Hatchback",
+            "engines": [
+              {
+                "label": "1.0 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 110,
+                "torqueNm": 200,
+                "sourceName": "Sample import",
+                "transmissions": ["Manuel", "DSG"]
+              },
+              {
+                "label": "1.5 eTSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 150,
+                "torqueNm": 250,
+                "sourceName": "Sample import",
+                "transmissions": ["DSG"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Passat",
+        "generations": [
+          {
+            "name": "B8",
+            "startYear": 2015,
+            "endYear": 2023,
+            "bodyType": "Sedan",
+            "engines": [
+              {
+                "label": "1.4 TSI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 125,
+                "torqueNm": 200,
+                "sourceName": "Sample import",
+                "transmissions": ["Manuel", "DSG"]
+              },
+              {
+                "label": "1.6 TDI",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": 250,
+                "sourceName": "Sample import",
+                "transmissions": ["Manuel", "DSG"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "brand": "Renault",
+    "models": [
+      {
+        "name": "Clio",
+        "generations": [
+          {
+            "name": "Clio 4",
+            "startYear": 2012,
+            "endYear": 2019,
+            "bodyType": "Hatchback",
+            "engines": [
+              {
+                "label": "1.2 16V",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 75,
+                "torqueNm": 107,
+                "sourceName": "Sample import",
+                "transmissions": ["Manuel"]
+              },
+              {
+                "label": "1.5 dCi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.5",
+                "powerHp": 90,
+                "torqueNm": 220,
+                "sourceName": "Sample import",
+                "transmissions": ["Manuel", "EDC"]
+              }
+            ]
+          },
+          {
+            "name": "Clio 5",
+            "startYear": 2019,
+            "endYear": null,
+            "bodyType": "Hatchback",
+            "engines": [
+              {
+                "label": "1.0 TCe",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 90,
+                "torqueNm": 160,
+                "sourceName": "Sample import",
+                "transmissions": ["Manuel", "X-Tronic"]
+              },
+              {
+                "label": "1.5 Blue dCi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.5",
+                "powerHp": 115,
+                "torqueNm": 260,
+                "sourceName": "Sample import",
+                "transmissions": ["Manuel"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

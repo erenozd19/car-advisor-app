@@ -1,14 +1,15 @@
 import { router, useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import {
-    ActivityIndicator,
-    SafeAreaView,
-    ScrollView,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View
+  SafeAreaView,
+  ScrollView,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View
 } from "react-native";
+import { AnalysisLoading } from "../components/AnalysisLoading";
+
 
 const API_BASE_URL = "http://192.168.1.103:3001";
 
@@ -33,15 +34,18 @@ useEffect(() => {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          brand: params.brand,
-          model: params.model,
-          year: params.year,
-          engine: params.engine,
-          fuelType: params.fuelType,
-          transmission: params.transmission,
-          mileage: params.mileage,
-          price: params.price,
-        }),
+  brand: params.brand,
+  model: params.model,
+  year: params.year,
+  engine: params.engine,
+  fuelType: params.fuelType,
+  transmission: params.transmission,
+  mileage: params.mileage,
+  price: params.price,
+  technicalData: params.technicalData
+    ? JSON.parse(String(params.technicalData))
+    : null,
+}),
       });
 
       const data = await response.json();
@@ -75,14 +79,10 @@ useEffect(() => {
 
 if (isLoading) {
   return (
-    <SafeAreaView style={styles.container}>
-      <View style={[styles.content, { flex: 1, justifyContent: "center" }]}>
-        <ActivityIndicator size="large" color="#facc15" />
-        <Text style={[styles.noteText, { textAlign: "center", marginTop: 16 }]}>
-          AI piyasa araştırması hazırlanıyor...
-        </Text>
-      </View>
-    </SafeAreaView>
+    <AnalysisLoading
+      title="Piyasa araştırması yapılıyor..."
+      description="Seçtiğin araç bilgilerine göre fiyat, kilometre ve genel piyasa yorumu hazırlanıyor."
+    />
   );
 }
 
