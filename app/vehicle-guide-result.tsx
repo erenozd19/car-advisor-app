@@ -9,8 +9,9 @@ import {
   View,
 } from "react-native";
 import { AnalysisLoading } from "../components/AnalysisLoading";
+import { useReportStore } from "../store/reportStore";
 
-const API_BASE_URL = "http://192.168.1.103:3001";
+import { API_BASE_URL } from "../src/config/api";
 
 type VehicleGuideReport = {
   summary: string;
@@ -37,7 +38,7 @@ type VehicleGuideResponse = {
 
 export default function VehicleGuideResultScreen() {
   const params = useLocalSearchParams();
-
+  const currentReport = useReportStore((state) => state.currentReport);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [data, setData] = useState<VehicleGuideResponse | null>(null);
@@ -47,8 +48,18 @@ export default function VehicleGuideResultScreen() {
   } ${params.engine || ""}`.trim();
 
   useEffect(() => {
-    fetchVehicleGuide();
-  }, []);
+  if (params.fromHistory === "true" && currentReport) {
+    setData({
+      ok: true,
+      report: currentReport as unknown as VehicleGuideReport,
+    });
+
+    setLoading(false);
+    return;
+  }
+
+  fetchVehicleGuide();
+}, []);
 
   async function fetchVehicleGuide() {
     try {

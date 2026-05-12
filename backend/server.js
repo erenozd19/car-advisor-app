@@ -11,7 +11,36 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/api/debug-routes-check", (req, res) => {
+  res.json({
+    ok: true,
+    message: "Bu güncel server.js çalışıyor.",
+    time: new Date().toISOString(),
+  });
+});
 
+app.get("/api/vehicles/brands", async (req, res) => {
+  try {
+    const brands = await prisma.brand.findMany({
+      orderBy: {
+        name: "asc",
+      },
+    });
+
+    res.json({
+      ok: true,
+      data: brands,
+    });
+  } catch (error) {
+    console.error("vehicles/brands error:", error);
+
+    res.status(500).json({
+      ok: false,
+      message: "Markalar alınırken hata oluştu.",
+      errorMessage: error?.message,
+    });
+  }
+});
 
 const PORT = process.env.PORT || 3001;
 function detectTransmission(textValue) {
@@ -35,9 +64,9 @@ function formatTechnicalDataForPrompt(technicalData) {
 
   const powerOptions = Array.isArray(technicalData.powerOptions)
     ? technicalData.powerOptions
-        .map((item) => item.powerHp)
-        .filter(Boolean)
-        .map((hp) => `${hp} HP`)
+      .map((item) => item.powerHp)
+      .filter(Boolean)
+      .map((hp) => `${hp} HP`)
     : [];
 
   const uniquePowerOptions = [...new Set(powerOptions)];
@@ -51,12 +80,10 @@ Kaynaklı teknik veri:
 - Motor etiketi: ${technicalData.label || "Belirtilmedi"}
 - Yakıt tipi: ${technicalData.fuelType || "Belirtilmedi"}
 - Motor hacmi: ${technicalData.engineVolume || "Belirtilmedi"}
-- Güç seçenekleri: ${
-    uniquePowerOptions.length ? uniquePowerOptions.join(" / ") : "Belirtilmedi"
-  }
-- Şanzıman seçenekleri: ${
-    transmissionLabels.length ? [...new Set(transmissionLabels)].join(" / ") : "Belirtilmedi"
-  }
+- Güç seçenekleri: ${uniquePowerOptions.length ? uniquePowerOptions.join(" / ") : "Belirtilmedi"
+    }
+- Şanzıman seçenekleri: ${transmissionLabels.length ? [...new Set(transmissionLabels)].join(" / ") : "Belirtilmedi"
+    }
 - Jenerasyon/kasa kaydı: ${technicalData.generationName || "Belirtilmedi"}
 `.trim();
 }
@@ -68,10 +95,10 @@ function formatTechnicalDataForPrompt(technicalData) {
 
   const powerOptions = Array.isArray(technicalData.powerOptions)
     ? technicalData.powerOptions
-        .map((item) => item.powerHp)
-        .filter(Boolean)
-        .map((hp) => `${hp} HP`)
-        .join(" / ")
+      .map((item) => item.powerHp)
+      .filter(Boolean)
+      .map((hp) => `${hp} HP`)
+      .join(" / ")
     : "";
 
   const transmissionLabels = Array.isArray(technicalData.transmissionLabels)
@@ -95,7 +122,371 @@ Kaynaklı teknik veri:
 ${sourceUrls || technicalData.sourceUrl || "Belirtilmedi"}
 `.trim();
 }
+function normalizeRiskLevel(value) {
+  const text = String(value || "").toLowerCase();
 
+  if (text.includes("düşük") || text.includes("dusuk")) return "Düşük";
+  if (text.includes("yüksek") || text.includes("yuksek")) return "Yüksek";
+  if (text.includes("orta")) return "Orta";
+
+  return "Orta";
+}
+
+function normalizeDecision(value, riskLevel) {
+  const text = String(value || "").toLowerCase();
+
+  if (
+    text.includes("alınmaz") ||
+    text.includes("alinmaz") ||
+    text.includes("uzak dur") ||
+    text.includes("önermem") ||
+    text.includes("onermem")
+  ) {
+    return "Alınmaz";
+  }
+
+  if (
+    text.includes("alınabilir") ||
+    text.includes("alinabilir") ||
+    text.includes("mantıklı") ||
+    text.includes("mantikli") ||
+    text.includes("değerlendirilebilir") ||
+    text.includes("degerlendirilebilir")
+  ) {
+    return riskLevel === "Yüksek" ? "Dikkatli Alınabilir" : "Alınabilir";
+  }
+
+  if (riskLevel === "Yüksek") return "Riskli";
+  if (riskLevel === "Düşük") return "Alınabilir";
+
+  return "Dikkatli Alınabilir";
+}
+
+function normalizeScore(value, riskLevel, pricePosition) {
+  const numericScore = Number(value);
+
+  if (Number.isFinite(numericScore)) {
+    return Math.max(0, Math.min(100, Math.round(numericScore)));
+  }
+
+  const normalizedPricePosition = String(pricePosition || "").toLowerCase();
+
+  if (riskLevel === "Yüksek") {
+    return normalizedPricePosition.includes("ucuz") ? 45 : 35;
+  }
+
+  if (riskLevel === "Düşük") {
+    if (normalizedPricePosition.includes("pahalı")) return 68;
+    return 78;
+  }
+
+  if (normalizedPricePosition.includes("çok pahalı")) return 45;
+  if (normalizedPricePosition.includes("pahalı")) return 55;
+  if (normalizedPricePosition.includes("ucuz")) return 70;
+
+  return 60;
+}
+
+function formatTryPrice(value) {
+  const numberValue = Number(value);
+
+  if (!Number.isFinite(numberValue) || numberValue <= 0) {
+    return "Veri yok";
+  }
+
+  return `${numberValue.toLocaleString("tr-TR")} TL`;
+}
+
+function calculateUserPricePosition(userPrice, marketData) {
+  const cleanedUserPrice = Number(String(userPrice || "").replace(/[^\d]/g, ""));
+  const medianPrice = Number(marketData?.medianPrice || 0);
+
+  if (
+    marketData?.status !== "ready" ||
+    !Number.isFinite(cleanedUserPrice) ||
+    cleanedUserPrice <= 0 ||
+    !Number.isFinite(medianPrice) ||
+    medianPrice <= 0
+  ) {
+    return {
+      label: "Canlı veriyle doğrulanamadı",
+      differencePercent: null,
+    };
+  }
+
+  const differencePercent = Math.round(
+    ((cleanedUserPrice - medianPrice) / medianPrice) * 100
+  );
+
+  if (differencePercent >= 25) {
+    return {
+      label: "Çok Pahalı",
+      differencePercent,
+    };
+  }
+
+  if (differencePercent >= 10) {
+    return {
+      label: "Pahalı",
+      differencePercent,
+    };
+  }
+
+  if (differencePercent <= -25) {
+    return {
+      label: "Çok Uygun / Şüpheli Ucuz",
+      differencePercent,
+    };
+  }
+
+  if (differencePercent <= -10) {
+    return {
+      label: "Uygun",
+      differencePercent,
+    };
+  }
+
+  return {
+    label: "Piyasa Bandında",
+    differencePercent,
+  };
+}
+
+function cleanMarketSourcesByPrice(sources = []) {
+  const validSources = Array.isArray(sources)
+    ? sources
+        .map((source) => ({
+          ...source,
+          price: Number(source.price || 0),
+        }))
+        .filter((source) => Number.isFinite(source.price) && source.price > 0)
+    : [];
+
+  if (validSources.length < 3) {
+    return validSources;
+  }
+
+  const prices = validSources
+    .map((source) => source.price)
+    .sort((a, b) => a - b);
+
+  const middle = Math.floor(prices.length / 2);
+  const median =
+    prices.length % 2 === 0
+      ? Math.round((prices[middle - 1] + prices[middle]) / 2)
+      : prices[middle];
+
+  const minAllowed = Math.round(median * 0.65);
+  const maxAllowed = Math.round(median * 1.45);
+
+  return validSources.filter(
+    (source) => source.price >= minAllowed && source.price <= maxAllowed
+  );
+}
+
+function buildListingMarketFields(marketData, userPrice) {
+  if (marketData?.status !== "ready") {
+    return {
+      estimatedMarketRange:
+        "Kaynaklı piyasa verisi bulunamadığı için güvenilir fiyat aralığı üretilemedi.",
+      estimatedSimilarKmPrice:
+        "Benzer kilometre fiyatı için yeterli kaynaklı veri bulunamadı.",
+      estimatedCleanPrice:
+        "Temiz örnek fiyatı için yeterli kaynaklı veri bulunamadı.",
+      pricePosition: "Canlı veriyle doğrulanamadı",
+      negotiationTarget:
+        "Kaynaklı piyasa verisi olmadan pazarlık hedefi önerilmedi.",
+      marketDataStatus: "insufficient_data",
+      marketDataSampleSize: 0,
+      marketDataConfidence: "Düşük",
+    };
+  }
+
+  const cleanedSources = cleanMarketSourcesByPrice(marketData.sources);
+
+if (cleanedSources.length < 2) {
+  return {
+    estimatedMarketRange:
+      "Kaynaklar arasında yeterli benzer fiyat verisi bulunamadığı için güvenilir piyasa aralığı üretilemedi.",
+    estimatedSimilarKmPrice:
+      "Benzer kilometre için yeterli kaynaklı fiyat verisi bulunamadı.",
+    estimatedCleanPrice:
+      "Temiz örnek fiyatı için yeterli kaynaklı veri bulunamadı.",
+    pricePosition: "Canlı veriyle doğrulanamadı",
+    negotiationTarget:
+      "Güvenilir piyasa bandı oluşmadığı için pazarlık hedefi önerilmedi.",
+    marketDataStatus: "insufficient_data",
+    marketDataSampleSize: cleanedSources.length,
+    marketDataConfidence: "Düşük",
+  };
+}
+
+const cleanedPrices = cleanedSources
+  .map((source) => Number(source.price))
+  .filter((price) => Number.isFinite(price) && price > 0)
+  .sort((a, b) => a - b);
+
+const minPrice = cleanedPrices[0];
+const maxPrice = cleanedPrices[cleanedPrices.length - 1];
+
+const middle = Math.floor(cleanedPrices.length / 2);
+const medianPrice =
+  cleanedPrices.length % 2 === 0
+    ? Math.round((cleanedPrices[middle - 1] + cleanedPrices[middle]) / 2)
+    : cleanedPrices[middle];
+
+marketData = {
+  ...marketData,
+  sources: cleanedSources,
+  minPrice,
+  medianPrice,
+  maxPrice,
+  sampleSize: cleanedSources.length,
+};
+
+  const safeMedian =
+    Number.isFinite(medianPrice) && medianPrice > 0 ? medianPrice : 0;
+
+  const safeMin =
+    Number.isFinite(minPrice) && minPrice > 0
+      ? minPrice
+      : safeMedian
+      ? Math.round(safeMedian * 0.92)
+      : 0;
+
+  const safeMax =
+    Number.isFinite(maxPrice) && maxPrice > 0
+      ? maxPrice
+      : safeMedian
+      ? Math.round(safeMedian * 1.08)
+      : 0;
+
+  const pricePositionResult = calculateUserPricePosition(userPrice, marketData);
+
+  const differenceText =
+    pricePositionResult.differencePercent === null
+      ? ""
+      : ` (${pricePositionResult.differencePercent > 0 ? "+" : ""}${pricePositionResult.differencePercent}%)`;
+
+  const negotiationLow = safeMedian ? Math.round(safeMedian * 0.92) : 0;
+  const negotiationHigh = safeMedian ? Math.round(safeMedian * 0.98) : 0;
+
+  return {
+    estimatedMarketRange: `${formatTryPrice(safeMin)} - ${formatTryPrice(safeMax)}`,
+    estimatedSimilarKmPrice: `${formatTryPrice(safeMin)} - ${formatTryPrice(safeMax)}`,
+    estimatedCleanPrice: safeMedian
+      ? `${formatTryPrice(Math.round(safeMedian * 0.97))} - ${formatTryPrice(safeMax)}`
+      : `${formatTryPrice(safeMin)} - ${formatTryPrice(safeMax)}`,
+    pricePosition: `${pricePositionResult.label}${differenceText}`,
+    negotiationTarget:
+      negotiationLow && negotiationHigh
+        ? `${formatTryPrice(negotiationLow)} - ${formatTryPrice(negotiationHigh)} arası teklif denenebilir.`
+        : "Pazarlık hedefi için yeterli kaynaklı veri bulunamadı.",
+    marketDataStatus: "ready",
+    marketDataSampleSize: marketData.sampleSize || 0,
+    marketDataConfidence: marketData.confidenceLevel || "Orta",
+  };
+}
+function normalizeListingAnalysisReport(report) {
+  const riskLevel = normalizeRiskLevel(
+    report?.riskLevel || report?.listingRiskLevel
+  );
+
+  const decision = normalizeDecision(
+    report?.decision || report?.finalVerdict,
+    riskLevel
+  );
+
+  const score = normalizeScore(report?.score, riskLevel, report?.pricePosition);
+
+  const marketStatus =
+    report?.marketDataStatus ||
+    report?.marketData?.status ||
+    "unknown";
+
+  const hasReliableMarketData = marketStatus === "ready";
+
+  return {
+    ...report,
+
+    score,
+    decision,
+    riskLevel,
+    listingRiskLevel: report?.listingRiskLevel || riskLevel,
+
+    summary:
+      report?.summary ||
+      "İlan için özet üretilemedi. Ekspertiz ve canlı piyasa kontrolü önerilir.",
+
+    estimatedMarketRange: hasReliableMarketData
+      ? report?.estimatedMarketRange ||
+        report?.marketRange ||
+        "Kaynaklı piyasa aralığı hesaplanamadı."
+      : "Yeterli kaynaklı piyasa verisi bulunamadı.",
+
+    estimatedSimilarKmPrice: hasReliableMarketData
+      ? report?.estimatedSimilarKmPrice ||
+        report?.similarKmPrice ||
+        "Benzer kilometre fiyat aralığı hesaplanamadı."
+      : "Benzer kilometre için yeterli kaynaklı veri bulunamadı.",
+
+    estimatedCleanPrice: hasReliableMarketData
+      ? report?.estimatedCleanPrice ||
+        report?.cleanPrice ||
+        "Temiz örnek fiyat aralığı hesaplanamadı."
+      : "Temiz örnek fiyatı için yeterli kaynaklı veri bulunamadı.",
+
+    pricePosition: hasReliableMarketData
+      ? report?.pricePosition || "Canlı veriyle doğrulanamadı"
+      : "Yeterli kaynaklı veri yok",
+
+    negotiationTarget: hasReliableMarketData
+      ? report?.negotiationTarget || "Pazarlık hedefi hesaplanamadı."
+      : "Güvenilir piyasa bandı oluşmadığı için pazarlık hedefi önerilmedi.",
+
+    priceComment: hasReliableMarketData
+      ? report?.priceComment ||
+        "Fiyat, kaynaklı piyasa verilerine göre değerlendirilmiştir."
+      : "Bu araç için yeterli kaynaklı piyasa verisi bulunamadığı için fiyat aralığı güvenilir şekilde hesaplanamadı.",
+
+    kmComment:
+      report?.kmComment ||
+      "Kilometre servis kayıtları ve ekspertiz ile doğrulanmalıdır.",
+
+    damageComment:
+      report?.damageComment ||
+      "Hasar, boya ve tramer bilgisi ekspertizde kontrol edilmelidir.",
+
+    mechanicalRisks: Array.isArray(report?.mechanicalRisks)
+      ? report.mechanicalRisks
+      : ["Motor, şanzıman ve alt takım ekspertizde detaylı kontrol edilmelidir."],
+
+    negotiationPoints: Array.isArray(report?.negotiationPoints)
+      ? report.negotiationPoints
+      : ["Eksik bakım, yüksek kilometre veya hasar durumu pazarlık sebebi olabilir."],
+
+    expertiseChecklist: Array.isArray(report?.expertiseChecklist)
+      ? report.expertiseChecklist
+      : [
+          "Kaporta boya/değişen kontrolü",
+          "Motor yağ kaçağı kontrolü",
+          "Şanzıman test sürüşü",
+          "Alt takım ve fren kontrolü",
+        ],
+
+    buyerQuestions: Array.isArray(report?.buyerQuestions)
+      ? report.buyerQuestions
+      : [
+          "Bakım kayıtları mevcut mu?",
+          "Kilometre servis kayıtlarıyla doğrulanıyor mu?",
+          "Tramer ve değişen parça detayı nedir?",
+        ],
+
+    finalVerdict:
+      report?.finalVerdict ||
+      "Ekspertiz temiz çıkmadan ve servis geçmişi doğrulanmadan satın alınmamalıdır.",
+  };
+}
 async function saveAnalysisReportSafely({
   analysisType,
   vehiclePayload,
@@ -124,6 +515,97 @@ app.get("/api/health", (req, res) => {
   });
 });
 
+app.get("/api/reports", async (req, res) => {
+  try {
+    const { analysisType, limit } = req.query;
+
+    const take = Math.min(Number(limit) || 50, 100);
+
+    const where = analysisType
+      ? {
+        analysisType: String(analysisType),
+      }
+      : undefined;
+
+    const reports = await prisma.analysisReport.findMany({
+      where,
+      orderBy: {
+        createdAt: "desc",
+      },
+      take,
+    });
+
+    res.json({
+      ok: true,
+      data: reports,
+    });
+  } catch (error) {
+    console.error("reports list error:", error);
+
+    res.status(500).json({
+      ok: false,
+      message: "Rapor geçmişi alınırken hata oluştu.",
+      errorMessage: error?.message,
+    });
+  }
+});
+
+app.post("/api/test-market-search", async (req, res) => {
+  try {
+    const {
+  brand,
+  model,
+  year,
+  engine,
+  fuelType,
+  transmission,
+  km,
+} = req.body;
+    if (!brand || !model || !year) {
+      return res.status(400).json({
+        ok: false,
+        message: "brand, model ve year zorunludur.",
+      });
+    }
+    const searchResult = await getMarketDataWithSearch({
+  brand,
+  model,
+  year,
+  engine,
+  fuelType,
+  transmission,
+  km,
+});
+
+    const marketData = searchResult.marketData;
+    const hasGrounding = searchResult.hasGrounding;
+
+    res.json({
+      ok: marketData.status === "ready",
+      hasGrounding,
+      reason: marketData.status === "ready" ? null : "INSUFFICIENT_MARKET_DATA",
+      message:
+        marketData.status === "ready"
+          ? "Kaynaklı piyasa verisi oluşturuldu."
+          : "Yeterli kaynaklı piyasa verisi bulunamadı.",
+      marketData,
+      rawText: searchResult.text,
+      groundingMetadata: searchResult.groundingMetadata,
+    });
+  } catch (error) {
+    console.error("test-market-search error:", error);
+
+    res.status(500).json({
+      ok: false,
+      message: "Piyasa araması yapılırken hata oluştu.",
+      errorName: error?.name,
+      errorMessage: error?.message,
+      errorStatus: error?.status,
+      errorCode: error?.code,
+    });
+  }
+});
+
 app.get("/api/vehicles/brands", async (req, res) => {
   try {
     const brands = await prisma.brand.findMany({
@@ -142,6 +624,56 @@ app.get("/api/vehicles/brands", async (req, res) => {
     res.status(500).json({
       ok: false,
       message: "Markalar alınırken hata oluştu.",
+      errorMessage: error?.message,
+    });
+  }
+});
+
+app.get("/api/vehicles/models", async (req, res) => {
+  try {
+    const { brandId, brand } = req.query;
+
+    let resolvedBrandId = brandId ? String(brandId) : "";
+
+    if (!resolvedBrandId && brand) {
+      const foundBrand = await prisma.brand.findFirst({
+        where: {
+          name: {
+            equals: String(brand),
+            mode: "insensitive",
+          },
+        },
+      });
+
+      resolvedBrandId = foundBrand?.id || "";
+    }
+
+    if (!resolvedBrandId) {
+      return res.status(400).json({
+        ok: false,
+        message: "brandId veya brand zorunludur.",
+      });
+    }
+
+    const models = await prisma.vehicleModel.findMany({
+      where: {
+        brandId: resolvedBrandId,
+      },
+      orderBy: {
+        name: "asc",
+      },
+    });
+
+    res.json({
+      ok: true,
+      data: models,
+    });
+  } catch (error) {
+    console.error("vehicles/models error:", error);
+
+    res.status(500).json({
+      ok: false,
+      message: "Modeller alınırken hata oluştu.",
       errorMessage: error?.message,
     });
   }
@@ -194,20 +726,20 @@ app.get("/api/vehicles/generations", async (req, res) => {
     }
 
     const generations = await prisma.generation.findMany({
-  where: {
-    modelId: String(modelId),
-  },
-  include: {
-    engines: {
-      include: {
-        transmissions: true,
+      where: {
+        modelId: String(modelId),
       },
-    },
-  },
-  orderBy: {
-    startYear: "asc",
-  },
-});
+      include: {
+        engines: {
+          include: {
+            transmissions: true,
+          },
+        },
+      },
+      orderBy: {
+        startYear: "asc",
+      },
+    });
 
     res.json({
       ok: true,
@@ -364,12 +896,12 @@ app.get("/api/vehicles/engines-by-model-year", async (req, res) => {
         modelId: String(modelId),
       },
       include: {
-  engines: {
-    include: {
-      transmissions: true,
-    },
-  },
-},
+        engines: {
+          include: {
+            transmissions: true,
+          },
+        },
+      },
       orderBy: {
         startYear: "asc",
       },
@@ -383,154 +915,154 @@ app.get("/api/vehicles/engines-by-model-year", async (req, res) => {
     });
 
     const rawEngines = matchedGenerations.flatMap((generation) =>
-  generation.engines.map((engine) => ({
-    ...engine,
-    generationId: generation.id,
-    generationName: generation.name,
-  }))
-);
+      generation.engines.map((engine) => ({
+        ...engine,
+        generationId: generation.id,
+        generationName: generation.name,
+      }))
+    );
 
-const sourcePriority = {
-  UltimateSpecs: 1,
-  "Sample import": 2,
-  "Manual seed": 3,
-};
+    const sourcePriority = {
+      UltimateSpecs: 1,
+      "Sample import": 2,
+      "Manual seed": 3,
+    };
 
-const normalizedMap = new Map();
+    const normalizedMap = new Map();
 
-for (const engine of rawEngines) {
-  const key = [
-  String(engine.label || "").toLowerCase().trim(),
-  String(engine.fuelType || "").toLowerCase().trim(),
-  String(engine.engineVolume || "").toLowerCase().trim(),
-].join("|");
+    for (const engine of rawEngines) {
+      const key = [
+        String(engine.label || "").toLowerCase().trim(),
+        String(engine.fuelType || "").toLowerCase().trim(),
+        String(engine.engineVolume || "").toLowerCase().trim(),
+      ].join("|");
 
-  const currentPriority = sourcePriority[engine.sourceName] || 99;
+      const currentPriority = sourcePriority[engine.sourceName] || 99;
 
-  const enginePowerOption = engine.powerHp
-  ? {
-      powerHp: engine.powerHp,
-      sourceUrl: engine.sourceUrl || null,
-      sourceName: engine.sourceName || null,
+      const enginePowerOption = engine.powerHp
+        ? {
+          powerHp: engine.powerHp,
+          sourceUrl: engine.sourceUrl || null,
+          sourceName: engine.sourceName || null,
+        }
+        : null;
+
+      const engineTransmissionLabelsFromDb = Array.isArray(engine.transmissions)
+        ? engine.transmissions.map((item) => item.label || item).filter(Boolean)
+        : [];
+
+      const transmissionFallbackText = [
+        engine.label,
+        engine.sourceUrl,
+        engine.specs?.rawRowText,
+        engine.specs?.originalLabel,
+      ].filter(Boolean).join(" ");
+
+      const fallbackTransmission = detectTransmission
+        ? detectTransmission(transmissionFallbackText)
+        : null;
+
+      const engineTransmissionLabels = engineTransmissionLabelsFromDb.length
+        ? engineTransmissionLabelsFromDb
+        : fallbackTransmission
+          ? [fallbackTransmission]
+          : [];
+
+      if (!normalizedMap.has(key)) {
+        normalizedMap.set(key, {
+          ...engine,
+          powerOptions: enginePowerOption ? [enginePowerOption] : [],
+          transmissionLabels: [...new Set(engineTransmissionLabels)],
+          sourceUrls: engine.sourceUrl ? [engine.sourceUrl] : [],
+        });
+        continue;
+      }
+
+      const existing = normalizedMap.get(key);
+      const existingPriority = sourcePriority[existing.sourceName] || 99;
+
+      if (currentPriority < existingPriority) {
+        normalizedMap.set(key, {
+          ...engine,
+          powerOptions: [
+            ...(existing.powerOptions || []),
+            ...(enginePowerOption ? [enginePowerOption] : []),
+          ],
+          transmissionLabels: [
+            ...new Set([
+              ...(existing.transmissionLabels || []),
+              ...engineTransmissionLabels,
+            ]),
+          ],
+          sourceUrls: [
+            ...new Set([
+              ...(existing.sourceUrls || []),
+              ...(engine.sourceUrl ? [engine.sourceUrl] : []),
+            ]),
+          ],
+        });
+        continue;
+      }
+
+      existing.powerOptions = [
+        ...new Map(
+          [
+            ...(existing.powerOptions || []),
+            ...(enginePowerOption ? [enginePowerOption] : []),
+          ].map((item) => [String(item.powerHp), item])
+        ).values(),
+      ].sort((a, b) => a.powerHp - b.powerHp);
+
+      existing.transmissionLabels = [
+        ...new Set([
+          ...(existing.transmissionLabels || []),
+          ...engineTransmissionLabels,
+        ]),
+      ];
+
+      existing.sourceUrls = [
+        ...new Set([
+          ...(existing.sourceUrls || []),
+          ...(engine.sourceUrl ? [engine.sourceUrl] : []),
+        ]),
+      ];
     }
-  : null;
 
-const engineTransmissionLabelsFromDb = Array.isArray(engine.transmissions)
-  ? engine.transmissions.map((item) => item.label || item).filter(Boolean)
-  : [];
+    const engines = Array.from(normalizedMap.values()).sort((a, b) => {
+      const sourceA = sourcePriority[a.sourceName] || 99;
+      const sourceB = sourcePriority[b.sourceName] || 99;
 
-const transmissionFallbackText = [
-  engine.label,
-  engine.sourceUrl,
-  engine.specs?.rawRowText,
-  engine.specs?.originalLabel,
-].filter(Boolean).join(" ");
+      if (sourceA !== sourceB) return sourceA - sourceB;
 
-const fallbackTransmission = detectTransmission
-  ? detectTransmission(transmissionFallbackText)
-  : null;
+      const volumeA = Number(a.engineVolume || 99);
+      const volumeB = Number(b.engineVolume || 99);
 
-const engineTransmissionLabels = engineTransmissionLabelsFromDb.length
-  ? engineTransmissionLabelsFromDb
-  : fallbackTransmission
-    ? [fallbackTransmission]
-    : [];
+      if (volumeA !== volumeB) return volumeA - volumeB;
 
-if (!normalizedMap.has(key)) {
-  normalizedMap.set(key, {
-    ...engine,
-    powerOptions: enginePowerOption ? [enginePowerOption] : [],
-    transmissionLabels: [...new Set(engineTransmissionLabels)],
-    sourceUrls: engine.sourceUrl ? [engine.sourceUrl] : [],
-  });
-  continue;
-}
+      return String(a.label || "").localeCompare(String(b.label || ""));
+    });
 
-const existing = normalizedMap.get(key);
-const existingPriority = sourcePriority[existing.sourceName] || 99;
+    const hasUltimateSpecsData = engines.some(
+      (engine) => engine.sourceName === "UltimateSpecs"
+    );
 
-if (currentPriority < existingPriority) {
-  normalizedMap.set(key, {
-    ...engine,
-    powerOptions: [
-      ...(existing.powerOptions || []),
-      ...(enginePowerOption ? [enginePowerOption] : []),
-    ],
-    transmissionLabels: [
-      ...new Set([
-        ...(existing.transmissionLabels || []),
-        ...engineTransmissionLabels,
-      ]),
-    ],
-    sourceUrls: [
-      ...new Set([
-        ...(existing.sourceUrls || []),
-        ...(engine.sourceUrl ? [engine.sourceUrl] : []),
-      ]),
-    ],
-  });
-  continue;
-}
-
-existing.powerOptions = [
-  ...new Map(
-    [
-      ...(existing.powerOptions || []),
-      ...(enginePowerOption ? [enginePowerOption] : []),
-    ].map((item) => [String(item.powerHp), item])
-  ).values(),
-].sort((a, b) => a.powerHp - b.powerHp);
-
-existing.transmissionLabels = [
-  ...new Set([
-    ...(existing.transmissionLabels || []),
-    ...engineTransmissionLabels,
-  ]),
-];
-
-existing.sourceUrls = [
-  ...new Set([
-    ...(existing.sourceUrls || []),
-    ...(engine.sourceUrl ? [engine.sourceUrl] : []),
-  ]),
-];
-}
-
-const engines = Array.from(normalizedMap.values()).sort((a, b) => {
-  const sourceA = sourcePriority[a.sourceName] || 99;
-  const sourceB = sourcePriority[b.sourceName] || 99;
-
-  if (sourceA !== sourceB) return sourceA - sourceB;
-
-  const volumeA = Number(a.engineVolume || 99);
-  const volumeB = Number(b.engineVolume || 99);
-
-  if (volumeA !== volumeB) return volumeA - volumeB;
-
-  return String(a.label || "").localeCompare(String(b.label || ""));
-});
-
-const hasUltimateSpecsData = engines.some(
-  (engine) => engine.sourceName === "UltimateSpecs"
-);
-
-const visibleEngines = hasUltimateSpecsData
-  ? engines.filter((engine) => engine.sourceName === "UltimateSpecs")
-  : engines;
+    const visibleEngines = hasUltimateSpecsData
+      ? engines.filter((engine) => engine.sourceName === "UltimateSpecs")
+      : engines;
 
     res.json({
-  ok: true,
-  data: visibleEngines,
-  meta: {
-    modelId: String(modelId),
-    year: selectedYear,
-    matchedGenerationCount: matchedGenerations.length,
-    hasUltimateSpecsData,
-    rawEngineCount: rawEngines.length,
-    normalizedEngineCount: engines.length,
-    visibleEngineCount: visibleEngines.length,
-  },
-});
+      ok: true,
+      data: visibleEngines,
+      meta: {
+        modelId: String(modelId),
+        year: selectedYear,
+        matchedGenerationCount: matchedGenerations.length,
+        hasUltimateSpecsData,
+        rawEngineCount: rawEngines.length,
+        normalizedEngineCount: engines.length,
+        visibleEngineCount: visibleEngines.length,
+      },
+    });
   } catch (error) {
     console.error("vehicles/engines-by-model-year error:", error);
 
@@ -545,14 +1077,14 @@ const visibleEngines = hasUltimateSpecsData
 app.post("/api/vehicle-guide", async (req, res) => {
   try {
     const {
-  brand,
-  model,
-  year,
-  engine,
-  fuelType,
-  transmission,
-  technicalData,
-} = req.body;
+      brand,
+      model,
+      year,
+      engine,
+      fuelType,
+      transmission,
+      technicalData,
+    } = req.body;
 
     if (!brand || !model || !year) {
       return res.status(400).json({
@@ -565,38 +1097,38 @@ app.post("/api/vehicle-guide", async (req, res) => {
     const wikiData = await getWikipediaVehicleSummary(vehicleQuery);
 
     const aiReport = await generateVehicleGuideWithAI({
-  brand,
-  model,
-  year,
-  engine,
-  fuelType,
-  transmission,
-  technicalData,
-  wikiData,
-});
-await saveAnalysisReportSafely({
-  analysisType: "vehicle-guide",
-  vehiclePayload: {
-    brand,
-    model,
-    year,
-    engine,
-    fuelType,
-    transmission,
-    technicalData,
-  },
-  userInputs: null,
-  aiReport,
-});
+      brand,
+      model,
+      year,
+      engine,
+      fuelType,
+      transmission,
+      technicalData,
+      wikiData,
+    });
+    await saveAnalysisReportSafely({
+      analysisType: "vehicle-guide",
+      vehiclePayload: {
+        brand,
+        model,
+        year,
+        engine,
+        fuelType,
+        transmission,
+        technicalData,
+      },
+      userInputs: null,
+      aiReport,
+    });
     res.json({
-  ok: true,
-  source: {
-    wikipediaTitle: wikiData?.title || null,
-    wikipediaUrl: wikiData?.url || null,
-    wikipediaExtract: wikiData?.extract || null,
-  },
-  report: aiReport,
-});
+      ok: true,
+      source: {
+        wikipediaTitle: wikiData?.title || null,
+        wikipediaUrl: wikiData?.url || null,
+        wikipediaExtract: wikiData?.extract || null,
+      },
+      report: aiReport,
+    });
   } catch (error) {
     console.error("vehicle-guide error:", error);
 
@@ -639,6 +1171,32 @@ app.post("/api/listing-analysis", async (req, res) => {
 
     const vehicleQuery = `${brand} ${model}`;
     const wikiData = await getWikipediaVehicleSummary(vehicleQuery);
+    let marketData = {
+  status: "insufficient_data",
+  sampleSize: 0,
+  sources: [],
+  minPrice: 0,
+  medianPrice: 0,
+  maxPrice: 0,
+  confidenceLevel: "Düşük",
+  notes: ["Piyasa verisi alınamadı."],
+};
+
+try {
+  const marketSearchResult = await getMarketDataWithSearch({
+    brand,
+    model,
+    year,
+    engine,
+    fuelType,
+    transmission,
+    km,
+  });
+
+  marketData = marketSearchResult.marketData;
+} catch (marketError) {
+  console.error("listing-analysis market search error:", marketError?.message || marketError);
+}
 
     const report = await generateListingAnalysisWithAI({
       brand,
@@ -657,62 +1215,43 @@ app.post("/api/listing-analysis", async (req, res) => {
       wikiData,
     });
 
-    const normalizedReport = {
+    const marketFields = buildListingMarketFields(marketData, price);
+
+const normalizedReport = normalizeListingAnalysisReport({
   ...report,
-
-  estimatedMarketRange:
-    report.estimatedMarketRange ||
-    report.marketRange ||
-    "AI tahmini piyasa aralığı üretilemedi.",
-
-  estimatedSimilarKmPrice:
-    report.estimatedSimilarKmPrice ||
-    report.similarKmPrice ||
-    "Benzer kilometre fiyat aralığı üretilemedi.",
-
-  estimatedCleanPrice:
-    report.estimatedCleanPrice ||
-    report.cleanPrice ||
-    "Temiz örnek fiyat aralığı üretilemedi.",
-
-  pricePosition:
-    report.pricePosition ||
-    "Belirsiz",
-
-  negotiationTarget:
-    report.negotiationTarget ||
-    "Pazarlık hedefi üretilemedi. Benzer ilanlarla karşılaştırma yapılmalı.",
-};
-await saveAnalysisReportSafely({
-  analysisType: "listing-analysis",
-  vehiclePayload: {
-    brand,
-    model,
-    year,
-    engine,
-    fuelType,
-    transmission,
-    technicalData,
-  },
-  userInputs: {
-    km,
-    price,
-    damageStatus,
-    paintStatus,
-    tramerAmount,
-    sellerNote,
-  },
-  aiReport: report,
+  ...marketFields,
+  marketData,
 });
+    await saveAnalysisReportSafely({
+      analysisType: "listing-analysis",
+      vehiclePayload: {
+        brand,
+        model,
+        year,
+        engine,
+        fuelType,
+        transmission,
+        technicalData,
+      },
+      userInputs: {
+        km,
+        price,
+        damageStatus,
+        paintStatus,
+        tramerAmount,
+        sellerNote,
+      },
+      aiReport: normalizedReport,
+    });
     res.json({
-  ok: true,
-  source: {
-    wikipediaTitle: wikiData?.title || null,
-    wikipediaUrl: wikiData?.url || null,
-    wikipediaExtract: wikiData?.extract || null,
-  },
-  report: normalizedReport,
-});
+      ok: true,
+      source: {
+        wikipediaTitle: wikiData?.title || null,
+        wikipediaUrl: wikiData?.url || null,
+        wikipediaExtract: wikiData?.extract || null,
+      },
+      report: normalizedReport,
+    });
   } catch (error) {
     console.error("listing-analysis error:", error);
 
@@ -731,16 +1270,16 @@ await saveAnalysisReportSafely({
 app.post("/api/market-research", async (req, res) => {
   try {
     const {
-  brand,
-  model,
-  year,
-  engine,
-  fuelType,
-  transmission,
-  mileage,
-  price,
-  technicalData,
-} = req.body;
+      brand,
+      model,
+      year,
+      engine,
+      fuelType,
+      transmission,
+      mileage,
+      price,
+      technicalData,
+    } = req.body;
 
     if (!brand || !model || !year) {
       return res.status(400).json({
@@ -764,23 +1303,23 @@ app.post("/api/market-research", async (req, res) => {
       technicalData,
       wikiData,
     });
-await saveAnalysisReportSafely({
-  analysisType: "market-research",
-  vehiclePayload: {
-    brand,
-    model,
-    year,
-    engine,
-    fuelType,
-    transmission,
-    technicalData,
-  },
-  userInputs: {
-    mileage,
-    price,
-  },
-  aiReport: report,
-});
+    await saveAnalysisReportSafely({
+      analysisType: "market-research",
+      vehiclePayload: {
+        brand,
+        model,
+        year,
+        engine,
+        fuelType,
+        transmission,
+        technicalData,
+      },
+      userInputs: {
+        mileage,
+        price,
+      },
+      aiReport: report,
+    });
     res.json({
       ok: true,
       source: {
@@ -881,7 +1420,7 @@ async function generateVehicleGuideWithAI({
   wikiData,
 }) {
   const technicalDataText = formatTechnicalDataForPrompt(technicalData);
-const prompt = `
+  const prompt = `
 Sen Türkiye ikinci el araç alım danışmanı, ekspertiz ön kontrol uzmanı ve araç araştırma asistanı gibi davran.
 
 Kullanıcının seçtiği araç:
@@ -1101,6 +1640,10 @@ Kurallar:
 - Araç alınır/alınmaz kararını ekspertiz şartıyla ver.
 - Her başlık farklı bilgi vermeli, aynı uyarıları tekrar etme.
 - JSON dışında hiçbir şey yazma.
+- score alanı 0-100 arasında sayı olmalı. 100 çok iyi fırsat, 0 çok riskli ilan anlamına gelir.
+- decision yalnızca şu değerlerden biri olsun: "Alınabilir", "Dikkatli Alınabilir", "Riskli", "Alınmaz".
+- riskLevel yalnızca şu değerlerden biri olsun: "Düşük", "Orta", "Yüksek".
+- listingRiskLevel ile riskLevel aynı anlama gelir; ikisini de doldur.
 
 Fiyat analizi için:
 - estimatedMarketRange: Aynı yıl/model/motor/şanzıman için genel tahmini piyasa aralığı.
@@ -1112,7 +1655,10 @@ Fiyat analizi için:
 
 Şu JSON formatında cevap ver:
 {
-  "summary": "Bu ilanın kısa özeti",
+   "summary": "Bu ilanın kısa özeti",
+  "score": 0,
+  "decision": "Alınabilir / Dikkatli Alınabilir / Riskli / Alınmaz",
+  "riskLevel": "Düşük / Orta / Yüksek",
   "listingRiskLevel": "Düşük / Orta / Yüksek",
   "estimatedMarketRange": "Tahmini genel piyasa aralığı. Örnek: 850.000 TL - 980.000 TL",
   "estimatedSimilarKmPrice": "Girilen kilometreye yakın araçların tahmini fiyat aralığı. Örnek: 800.000 TL - 900.000 TL",
@@ -1362,6 +1908,9 @@ function getFallbackMarketResearch() {
 function getFallbackListingAnalysis() {
   return {
     summary: "AI bağlantısı olmadığı için temel ilan analizi gösteriliyor.",
+    score: 60,
+    decision: "Dikkatli Alınabilir",
+    riskLevel: "Orta",
     listingRiskLevel: "Orta",
     priceComment: "Fiyatın doğru yorumlanması için benzer ilanlarla karşılaştırılması gerekir.",
     kmComment: "Kilometre servis kayıtlarıyla doğrulanmalıdır.",
@@ -1424,6 +1973,32 @@ async function generateWithGemini(prompt) {
   }
 }
 
+async function generateWithGeminiSearch(prompt) {
+  const ai = new GoogleGenAI({
+    apiKey: process.env.GEMINI_API_KEY,
+  });
+
+  const response = await ai.models.generateContent({
+    model: process.env.GEMINI_MODEL || "gemini-2.5-flash",
+    contents: prompt,
+    config: {
+      tools: [
+        {
+          googleSearch: {},
+        },
+      ],
+    },
+  });
+
+  const candidate = response?.candidates?.[0] || null;
+
+  return {
+    text: response.text || "",
+    groundingMetadata: candidate?.groundingMetadata || null,
+    candidateKeys: candidate ? Object.keys(candidate) : [],
+  };
+}
+
 async function generateWithOpenAI(prompt) {
   const openai = new OpenAI({
     apiKey: process.env.OPENAI_API_KEY,
@@ -1460,6 +2035,297 @@ function cleanJsonText(text) {
     .replace(/```json/g, "")
     .replace(/```/g, "")
     .trim();
+}
+
+function parseJsonFromGeminiText(text) {
+  if (!text) return null;
+
+  let cleaned = String(text).trim();
+
+  cleaned = cleaned
+    .replace(/^```json\s*/i, "")
+    .replace(/^```\s*/i, "")
+    .replace(/```$/i, "")
+    .trim();
+
+  const firstBrace = cleaned.indexOf("{");
+  const lastBrace = cleaned.lastIndexOf("}");
+
+  if (firstBrace === -1 || lastBrace === -1 || lastBrace <= firstBrace) {
+    return null;
+  }
+
+  const jsonText = cleaned.slice(firstBrace, lastBrace + 1);
+
+  try {
+    return JSON.parse(jsonText);
+  } catch (error) {
+    console.error("Gemini market JSON parse error:", error?.message || error);
+    return null;
+  }
+}
+
+function calculateMedian(numbers) {
+  if (!Array.isArray(numbers) || numbers.length === 0) return 0;
+
+  const sorted = [...numbers].sort((a, b) => a - b);
+  const middle = Math.floor(sorted.length / 2);
+
+  if (sorted.length % 2 === 0) {
+    return Math.round((sorted[middle - 1] + sorted[middle]) / 2);
+  }
+
+  return sorted[middle];
+}
+
+function isHistoricalOrListPriceSource(source) {
+  const haystack = [
+    source?.title,
+    source?.sourceName,
+    source?.sourceUrl,
+    source?.vehicleText,
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLocaleLowerCase("tr-TR");
+
+  const blockedSourceNames = [
+    "youtube",
+    "youtu.be",
+  ];
+
+  if (blockedSourceNames.some((word) => haystack.includes(word))) {
+    return true;
+  }
+
+  const blockedKeywords = [
+    "fiyat listesi",
+    "fiyatları açıklandı",
+    "fiyat listesi açıklandı",
+    "sıfır satış fiyatı",
+    "sıfır araç fiyatı",
+    "sıfır araba fiyatı",
+    "kampanya",
+    "kampanyalı",
+    "liste fiyatı",
+    "tavsiye edilen satış fiyatı",
+    "anahtar teslim",
+    "bayi fiyatı",
+    "güncel fiyat listesi",
+    "geçmiş fiyat listesi",
+    "ocak",
+    "şubat",
+    "mart",
+    "nisan",
+    "mayıs",
+    "haziran",
+    "temmuz",
+    "ağustos",
+    "eylül",
+    "ekim",
+    "kasım",
+    "aralık",
+  ];
+
+  return blockedKeywords.some((word) => haystack.includes(word));
+}
+
+function normalizeMarketSearchResult(parsedResult, hasGrounding) {
+  if (!hasGrounding || !parsedResult) {
+    return {
+      status: "insufficient_data",
+      sampleSize: 0,
+      sources: [],
+      minPrice: 0,
+      medianPrice: 0,
+      maxPrice: 0,
+      confidenceLevel: "Düşük",
+      notes: ["Kaynaklı web araması doğrulanamadı."],
+    };
+  }
+
+  const rawSources = Array.isArray(parsedResult.sources)
+    ? parsedResult.sources
+    : [];
+
+  const uniqueMap = new Map();
+
+  for (const source of rawSources) {
+    const price = Number(source?.price);
+    const sourceUrl = String(source?.sourceUrl || "").trim();
+    const currency = String(source?.currency || "TRY").toUpperCase();
+    if (isHistoricalOrListPriceSource(source)) continue;
+    if (!Number.isFinite(price) || price <= 0) continue;
+    if (!sourceUrl) continue;
+    if (currency !== "TRY") continue;
+
+    const key = `${sourceUrl}-${price}`;
+
+    if (!uniqueMap.has(key)) {
+      uniqueMap.set(key, {
+        title: source?.title || "",
+        sourceName: source?.sourceName || "",
+        sourceUrl,
+        price,
+        currency,
+        vehicleText: source?.vehicleText || "",
+        matchQuality: source?.matchQuality || "Belirsiz",
+        confidence: source?.confidence || "Düşük",
+      });
+    }
+  }
+
+  const sources = Array.from(uniqueMap.values());
+  const prices = sources.map((item) => item.price).sort((a, b) => a - b);
+
+  if (prices.length === 0) {
+    return {
+      status: "insufficient_data",
+      sampleSize: 0,
+      sources: [],
+      minPrice: 0,
+      medianPrice: 0,
+      maxPrice: 0,
+      confidenceLevel: "Düşük",
+      notes: ["Fiyat içeren güvenilir kaynak bulunamadı."],
+    };
+  }
+
+  let confidenceLevel = "Düşük";
+
+  if (prices.length >= 5) {
+    confidenceLevel = "Yüksek";
+  } else if (prices.length >= 2) {
+    confidenceLevel = "Orta";
+  }
+
+  return {
+    status: "ready",
+    sampleSize: prices.length,
+    sources,
+    minPrice: prices[0],
+    medianPrice: calculateMedian(prices),
+    maxPrice: prices[prices.length - 1],
+    confidenceLevel,
+    notes: Array.isArray(parsedResult.notes) ? parsedResult.notes : [],
+  };
+}
+
+async function getMarketDataWithSearch({
+  brand,
+  model,
+  year,
+  engine,
+  fuelType,
+  transmission,
+  km,
+}) {
+  const cleanedKm = Number(String(km || "").replace(/[^\d]/g, ""));
+
+let kmSearchText = "";
+
+if (Number.isFinite(cleanedKm) && cleanedKm > 0) {
+  const kmMin = Math.max(0, Math.floor(cleanedKm * 0.8));
+  const kmMax = Math.ceil(cleanedKm * 1.2);
+
+  kmSearchText = `${cleanedKm} km, özellikle ${kmMin}-${kmMax} km bandındaki ilanlar`;
+}
+  const searchQueries = [
+  `${year} ${brand} ${model} ${engine || ""} ${transmission || ""} ${kmSearchText} ikinci el fiyat`,
+  `${year} ${brand} ${model} ${engine || ""} ${transmission || ""} ${kmSearchText} satılık`,
+  `${year} ${brand} ${model} ${engine || ""} ${transmission || ""} ${cleanedKm || ""} km TL fiyat`,
+`${year} ${brand} ${model} ${engine || ""} ${transmission || ""} ${cleanedKm || ""} km "TL"`,
+  `${brand} ${model} ${year} ${engine || ""} ${transmission || ""} ${cleanedKm || ""} km fiyat`,
+  `${brand} ${model} ${year} ${engine || ""} ${transmission || ""} ikinci el fiyat`,
+  `${brand} ${model} ${year} ${engine || ""} ${transmission || ""} sahibinden arabam fiyat`,
+  `${brand} ${model} ${engine || ""} ${transmission || ""} 200000 km ikinci el fiyat`,
+`${brand} ${model} ${engine || ""} ${transmission || ""} yüksek km ikinci el fiyat`,
+]
+    .map((item) => item.replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+
+  const prompt = `
+Türkiye otomobil fiyat araştırması yap.
+
+Araç:
+Marka: ${brand}
+Model: ${model}
+Yıl: ${year}
+Motor: ${engine || "Belirtilmedi"}
+Yakıt: ${fuelType || "Belirtilmedi"}
+Şanzıman: ${transmission || "Belirtilmedi"}
+Kilometre: ${Number.isFinite(cleanedKm) && cleanedKm > 0 ? `${cleanedKm} km` : "Belirtilmedi"}
+Benzer KM aralığı: ${
+  Number.isFinite(cleanedKm) && cleanedKm > 0
+    ? `${Math.max(0, Math.floor(cleanedKm * 0.8))} - ${Math.ceil(cleanedKm * 1.2)} km`
+    : "Belirtilmedi"
+}
+
+Kullanılacak arama sorguları:
+${searchQueries.map((query, index) => `${index + 1}. ${query}`).join("\n")}
+
+Çok önemli kurallar:
+- Web araması yap.
+- Tahmini fiyat yazma.
+- "Olabilir", "muhtemelen", "yaklaşık" diyerek fiyat üretme.
+- JSON dışında hiçbir şey yazma.
+
+Kaynak/fiyat kuralları:
+- Sadece kaynak metninde açıkça görülen sayısal TL fiyatlarını kullan.
+- price alanı 0 olamaz.
+- Fiyat açıkça görünmüyorsa ilgili kaynak sources listesine eklenmemelidir.
+- Kaynakta fiyat açıkça görünmüyorsa, ilan yılı/km/motor doğru olsa bile o kaynağı sources içine alma; sadece notes içinde "fiyatı görünmeyen yakın ilan bulundu" diye belirt.
+- Sources listesinde sadece fiyatı açıkça görünen ikinci el ilanları veya güncel satış/fiyat kaynakları yer almalıdır.
+
+Kilometre eşleşme kuralları:
+- Girilen kilometreyle birebir aynı km bekleme.
+- Kullanıcı kilometre girdiyse kilometreyi birebir arama kriteri değil, benzer kilometre bandı olarak kullan.
+- Aynı yıl/model/motor/yakıt/şanzıman için girilen km değerinin yaklaşık %20 altı ve %20 üstündeki ilanları öncelikli kabul et.
+- Örneğin kullanıcı 208.000 km girdiyse yaklaşık 166.000 - 250.000 km aralığındaki ilanlar benzer km kabul edilebilir.
+- Aynı km bandında fiyatlı kaynak bulunamazsa yakın yıl veya yakın km kaynaklarını sources içine ekleyebilirsin.
+- Ancak bu kaynaklarda matchQuality mutlaka "Yakın eşleşme" veya "Zayıf eşleşme" olmalıdır.
+- Eğer hiç fiyat içeren ikinci el kaynak bulunamazsa sources boş olabilir.
+
+Eleme kuralları:
+- Eski sıfır araç fiyat listelerini, ay bazlı eski fiyat listelerini, kampanya/liste fiyatlarını ve geçmiş liste fiyatlarını ikinci el piyasa fiyatı gibi kullanma.
+- Kaynakta fiyat varsa ama yıl/KM tam uymuyorsa yine de sources içine ekleyebilirsin, fakat confidence "Düşük" veya "Orta" olsun.
+JSON formatı:
+{
+  "query": "kullanılan arama mantığı",
+  "sampleSize": 0,
+  "sources": [
+    {
+      "title": "kaynak başlığı",
+      "sourceName": "kaynak adı",
+      "sourceUrl": "kaynak url",
+      "price": 0,
+      "currency": "TRY",
+      "vehicleText": "kaynakta fiyatı görülen araç açıklaması",
+      "matchQuality": "Tam eşleşme / Yakın eşleşme / Zayıf eşleşme",
+      "confidence": "Düşük / Orta / Yüksek"
+    }
+  ],
+  "minPrice": 0,
+  "medianPrice": 0,
+  "maxPrice": 0,
+  "confidenceLevel": "Düşük / Orta / Yüksek",
+  "notes": ["not"]
+}
+`;
+
+  const searchResult = await generateWithGeminiSearch(prompt);
+  const hasGrounding = Boolean(searchResult.groundingMetadata);
+  const parsedResult = parseJsonFromGeminiText(searchResult.text);
+  console.log("MARKET RAW TEXT:", searchResult.text);
+console.log("MARKET PARSED RESULT:", JSON.stringify(parsedResult, null, 2));
+  const marketData = normalizeMarketSearchResult(parsedResult, hasGrounding);
+  console.log("MARKET NORMALIZED:", JSON.stringify(marketData, null, 2));
+  return {
+    marketData,
+    hasGrounding,
+    rawText: searchResult.text,
+    groundingMetadata: searchResult.groundingMetadata,
+  };
 }
 
 function getFallbackGuide({

@@ -20,7 +20,7 @@ import {
   getYears,
   TransmissionOption,
   VehicleModel,
-} from "./src/services/vehicleCatalogApi";
+} from "../src/services/vehicleCatalogApi";
 
 export default function MarketResearchScreen() {
   const [brand, setBrand] = useState("");

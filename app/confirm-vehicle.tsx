@@ -11,8 +11,8 @@ import {
 } from "react-native";
 import { AnalysisLoading } from "../components/AnalysisLoading";
 import { getVehicleAliasSuggestion } from "../data/carAliases";
+import { API_BASE_URL } from "../src/config/api";
 import { useReportStore } from "../store/reportStore";
-const API_BASE_URL = "http://192.168.1.103:3001";
 
 export default function ConfirmVehicleScreen() {
     const params = useLocalSearchParams();

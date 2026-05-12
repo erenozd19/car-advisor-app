@@ -9,20 +9,25 @@ import {
   View
 } from "react-native";
 import { AnalysisLoading } from "../components/AnalysisLoading";
+import { useReportStore } from "../store/reportStore";
 
-
-const API_BASE_URL = "http://192.168.1.103:3001";
+import { API_BASE_URL } from "../src/config/api";
 
 
 
 export default function MarketResultScreen() {
   const params = useLocalSearchParams();
-
+const currentReport = useReportStore((state) => state.currentReport);
   const [report, setReport] = useState<any>(null);
 const [isLoading, setIsLoading] = useState(true);
 const [errorMessage, setErrorMessage] = useState("");
 
 useEffect(() => {
+  if (params.fromHistory === "true" && currentReport) {
+    setReport(currentReport);
+    setIsLoading(false);
+    return;
+  }
   async function fetchMarketResearch() {
     try {
       setIsLoading(true);

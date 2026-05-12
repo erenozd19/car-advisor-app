@@ -23,7 +23,7 @@ import {
   getYears,
   TransmissionOption,
   VehicleModel,
-} from "./src/services/vehicleCatalogApi";
+} from "../src/services/vehicleCatalogApi";
 
 const damageOptions = [
   "Bilmiyorum",

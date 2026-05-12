@@ -19,7 +19,7 @@ import {
   getYears,
   TransmissionOption,
   VehicleModel,
-} from "./src/services/vehicleCatalogApi";
+} from "../src/services/vehicleCatalogApi";
 
 export default function VehicleGuideScreen() {
   const [brand, setBrand] = useState("");
