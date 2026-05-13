@@ -1,0 +1,2442 @@
+[
+  {
+    "brand": "Hyundai",
+    "models": [
+      {
+        "name": "i20",
+        "generations": [
+          {
+            "name": "i20 (BC3)",
+            "startYear": 2021,
+            "endYear": null,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 T-GDI 48V Hybrid",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137922/Hyundai-i20-(BC3)-10-T-GDI-48V-100HP-Hybrid-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 100HP Hybrid Auto Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.0 T-GDI 48V 100HP Hybrid Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI 48V Hybrid DCT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137923/Hyundai-i20-(BC3)-10-T-GDI-48V-100HP-Hybrid-DCT.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 100HP Hybrid DCT Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.0 T-GDI 48V 100HP Hybrid DCT"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105400/Hyundai-i20-(GB)-10-T-GDI-100HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 100HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.0 T-GDI 100HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI BlueDrive",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105933/Hyundai-i20-(GB)-10-T-GDI-100HP-BlueDrive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 100HP BlueDrive Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.0 T-GDI 100HP BlueDrive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI 48V Hybrid",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137920/Hyundai-i20-(BC3)-10-T-GDI-48V-120HP-Hybrid-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 120HP Hybrid Auto Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.0 T-GDI 48V 120HP Hybrid Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI 48V Hybrid DCT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137921/Hyundai-i20-(BC3)-10-T-GDI-48V-120HP-Hybrid-DCT.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 120HP Hybrid DCT Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.0 T-GDI 48V 120HP Hybrid DCT"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105386/Hyundai-i20-(GB)-10-T-GDI-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 120HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.0 T-GDI 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI BlueDrive",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105934/Hyundai-i20-(GB)-10-T-GDI-120HP-BlueDrive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 120HP BlueDrive Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.0 T-GDI 120HP BlueDrive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.0 T-GDI BlueDrive",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105943/Hyundai-i20-Coupe-10-T-GDI-BlueDrive-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.0 T-GDI BlueDrive 120HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 Coupe 1.0 T-GDI BlueDrive 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70611/Hyundai-i20-(GB)-11-CRDi-75HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.1 CRDi 75HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi BlueDrive Essence",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105425/Hyundai-i20-(GB)-11-CRDi-75HP-BlueDrive-Essence.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP BlueDrive Essence Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.1 CRDi 75HP BlueDrive Essence"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi BlueDrive Klass",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105426/Hyundai-i20-(GB)-11-CRDi-75HP-BlueDrive-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP BlueDrive Klass Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.1 CRDi 75HP BlueDrive Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi Tecno",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70612/Hyundai-i20-(GB)-11-CRDi-75HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP Tecno Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.1 CRDi 75HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.1 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70806/Hyundai-i20-Coupe-11-CRDi-75HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.1 CRDi 75HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 Coupe 1.1 CRDi 75HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 BlueDrive Essence",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105422/Hyundai-i20-(GB)-12-85HP-BlueDrive-Essence.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP BlueDrive Essence Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.2 85HP BlueDrive Essence"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 BlueDrive Klass",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105423/Hyundai-i20-(GB)-12-85HP-BlueDrive-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP BlueDrive Klass Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.2 85HP BlueDrive Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 BlueDrive Tecno",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105424/Hyundai-i20-(GB)-12-85HP-BlueDrive-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP BlueDrive Tecno Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.2 85HP BlueDrive Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 Klass",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70608/Hyundai-i20-(GB)-12-85HP-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP Klass Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.2 85HP Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 Tecno",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70609/Hyundai-i20-(GB)-12-85HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP Tecno Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.2 85HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70803/Hyundai-i20-Coupe-12-85HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.2 85HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 Coupe 1.2 85HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.2 Tecno",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/72109/Hyundai-i20-Coupe-12-85HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.2 85HP Tecno Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 Coupe 1.2 85HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 MPi",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/68900/Hyundai-i20-(PB)-12-MPi-85HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M1358/i20-(PB)",
+                  "generationLinkTitle": "i20 (PB)12 Versions",
+                  "rawRowText": "i20 1.2 MPi 85HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.2 MPi 85HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70016/Hyundai-i20-(GB)-14-CRDi-90HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 CRDi 90HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Black Line",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/73055/Hyundai-i20-(GB)-14-CRDi-90HP-Black-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Black Line Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 CRDi 90HP Black Line"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi BlueDrive Essence",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105427/Hyundai-i20-(GB)-14-CRDi-90HP-BlueDrive-Essence.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP BlueDrive Essence Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 CRDi 90HP BlueDrive Essence"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi BlueDrive Klass",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105428/Hyundai-i20-(GB)-14-CRDi-90HP-BlueDrive-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP BlueDrive Klass Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 CRDi 90HP BlueDrive Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Klass",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70613/Hyundai-i20-(GB)-14-CRDi-90HP-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Klass Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 CRDi 90HP Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Klass Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105387/Hyundai-i20-(GB)-14-CRDi-90HP-Klass-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Klass Active Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 CRDi 90HP Klass Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Style",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70615/Hyundai-i20-(GB)-14-CRDi-90HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Style Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 CRDi 90HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Style Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105402/Hyundai-i20-(GB)-14-CRDi-90HP-Style-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Style Active Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 CRDi 90HP Style Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Tecno",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70614/Hyundai-i20-(GB)-14-CRDi-90HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Tecno Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 CRDi 90HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Tecno Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105401/Hyundai-i20-(GB)-14-CRDi-90HP-Tecno-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Tecno Active Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 CRDi 90HP Tecno Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70807/Hyundai-i20-Coupe-14-CRDi-90HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 CRDi 90HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 Coupe 1.4 CRDi 90HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 CRDi Style",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/73054/Hyundai-i20-Coupe-14-CRDi-90HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 CRDi 90HP Style Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 Coupe 1.4 CRDi 90HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 CRDi Tecno",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/72108/Hyundai-i20-Coupe-14-CRDi-90HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 CRDi 90HP Tecno Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 Coupe 1.4 CRDi 90HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70012/Hyundai-i20-(GB)-14-100HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 100HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 100HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.4 Style",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70610/Hyundai-i20-(GB)-14-100HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 100HP Style Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.4 100HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70804/Hyundai-i20-Coupe-14-100HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 100HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 Coupe 1.4 100HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 Style",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/73051/Hyundai-i20-Coupe-14-100HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 100HP Style Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 Coupe 1.4 100HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.25",
+                "fuelType": "Benzin",
+                "engineVolume": null,
+                "powerHp": 84,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70011/Hyundai-i20-(GB)-125-84HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.25 84HP Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "i20 1.25 84HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "i20 (GB)",
+            "startYear": 2014,
+            "endYear": 2020,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 T-GDI 48V Hybrid",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137922/Hyundai-i20-(BC3)-10-T-GDI-48V-100HP-Hybrid-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 100HP Hybrid Auto Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.0 T-GDI 48V 100HP Hybrid Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI 48V Hybrid DCT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137923/Hyundai-i20-(BC3)-10-T-GDI-48V-100HP-Hybrid-DCT.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 100HP Hybrid DCT Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.0 T-GDI 48V 100HP Hybrid DCT"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105400/Hyundai-i20-(GB)-10-T-GDI-100HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 100HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.0 T-GDI 100HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI BlueDrive",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105933/Hyundai-i20-(GB)-10-T-GDI-100HP-BlueDrive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 100HP BlueDrive Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.0 T-GDI 100HP BlueDrive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI 48V Hybrid",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137920/Hyundai-i20-(BC3)-10-T-GDI-48V-120HP-Hybrid-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 120HP Hybrid Auto Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.0 T-GDI 48V 120HP Hybrid Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI 48V Hybrid DCT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137921/Hyundai-i20-(BC3)-10-T-GDI-48V-120HP-Hybrid-DCT.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 120HP Hybrid DCT Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.0 T-GDI 48V 120HP Hybrid DCT"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105386/Hyundai-i20-(GB)-10-T-GDI-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 120HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.0 T-GDI 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI BlueDrive",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105934/Hyundai-i20-(GB)-10-T-GDI-120HP-BlueDrive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 120HP BlueDrive Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.0 T-GDI 120HP BlueDrive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.0 T-GDI BlueDrive",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105943/Hyundai-i20-Coupe-10-T-GDI-BlueDrive-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.0 T-GDI BlueDrive 120HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 Coupe 1.0 T-GDI BlueDrive 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70611/Hyundai-i20-(GB)-11-CRDi-75HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.1 CRDi 75HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi BlueDrive Essence",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105425/Hyundai-i20-(GB)-11-CRDi-75HP-BlueDrive-Essence.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP BlueDrive Essence Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.1 CRDi 75HP BlueDrive Essence"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi BlueDrive Klass",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105426/Hyundai-i20-(GB)-11-CRDi-75HP-BlueDrive-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP BlueDrive Klass Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.1 CRDi 75HP BlueDrive Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi Tecno",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70612/Hyundai-i20-(GB)-11-CRDi-75HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP Tecno Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.1 CRDi 75HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.1 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70806/Hyundai-i20-Coupe-11-CRDi-75HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.1 CRDi 75HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 Coupe 1.1 CRDi 75HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 BlueDrive Essence",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105422/Hyundai-i20-(GB)-12-85HP-BlueDrive-Essence.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP BlueDrive Essence Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.2 85HP BlueDrive Essence"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 BlueDrive Klass",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105423/Hyundai-i20-(GB)-12-85HP-BlueDrive-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP BlueDrive Klass Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.2 85HP BlueDrive Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 BlueDrive Tecno",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105424/Hyundai-i20-(GB)-12-85HP-BlueDrive-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP BlueDrive Tecno Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.2 85HP BlueDrive Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 Klass",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70608/Hyundai-i20-(GB)-12-85HP-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP Klass Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.2 85HP Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 Tecno",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70609/Hyundai-i20-(GB)-12-85HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP Tecno Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.2 85HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70803/Hyundai-i20-Coupe-12-85HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.2 85HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 Coupe 1.2 85HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.2 Tecno",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/72109/Hyundai-i20-Coupe-12-85HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.2 85HP Tecno Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 Coupe 1.2 85HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 MPi",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/68900/Hyundai-i20-(PB)-12-MPi-85HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M1358/i20-(PB)",
+                  "generationLinkTitle": "i20 (PB)12 Versions",
+                  "rawRowText": "i20 1.2 MPi 85HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.2 MPi 85HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70016/Hyundai-i20-(GB)-14-CRDi-90HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 CRDi 90HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Black Line",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/73055/Hyundai-i20-(GB)-14-CRDi-90HP-Black-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Black Line Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 CRDi 90HP Black Line"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi BlueDrive Essence",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105427/Hyundai-i20-(GB)-14-CRDi-90HP-BlueDrive-Essence.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP BlueDrive Essence Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 CRDi 90HP BlueDrive Essence"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi BlueDrive Klass",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105428/Hyundai-i20-(GB)-14-CRDi-90HP-BlueDrive-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP BlueDrive Klass Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 CRDi 90HP BlueDrive Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Klass",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70613/Hyundai-i20-(GB)-14-CRDi-90HP-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Klass Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 CRDi 90HP Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Klass Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105387/Hyundai-i20-(GB)-14-CRDi-90HP-Klass-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Klass Active Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 CRDi 90HP Klass Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Style",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70615/Hyundai-i20-(GB)-14-CRDi-90HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Style Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 CRDi 90HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Style Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105402/Hyundai-i20-(GB)-14-CRDi-90HP-Style-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Style Active Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 CRDi 90HP Style Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Tecno",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70614/Hyundai-i20-(GB)-14-CRDi-90HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Tecno Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 CRDi 90HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Tecno Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105401/Hyundai-i20-(GB)-14-CRDi-90HP-Tecno-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Tecno Active Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 CRDi 90HP Tecno Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70807/Hyundai-i20-Coupe-14-CRDi-90HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 CRDi 90HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 Coupe 1.4 CRDi 90HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 CRDi Style",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/73054/Hyundai-i20-Coupe-14-CRDi-90HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 CRDi 90HP Style Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 Coupe 1.4 CRDi 90HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 CRDi Tecno",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/72108/Hyundai-i20-Coupe-14-CRDi-90HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 CRDi 90HP Tecno Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 Coupe 1.4 CRDi 90HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70012/Hyundai-i20-(GB)-14-100HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 100HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 100HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.4 Style",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70610/Hyundai-i20-(GB)-14-100HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 100HP Style Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.4 100HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70804/Hyundai-i20-Coupe-14-100HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 100HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 Coupe 1.4 100HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 Style",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/73051/Hyundai-i20-Coupe-14-100HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 100HP Style Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 Coupe 1.4 100HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.25",
+                "fuelType": "Benzin",
+                "engineVolume": null,
+                "powerHp": 84,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70011/Hyundai-i20-(GB)-125-84HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.25 84HP Specs",
+                  "detectedYear": 2014,
+                  "originalLabel": "i20 1.25 84HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "i20 (PB)",
+            "startYear": 2008,
+            "endYear": 2014,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 T-GDI 48V Hybrid",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137922/Hyundai-i20-(BC3)-10-T-GDI-48V-100HP-Hybrid-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 100HP Hybrid Auto Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.0 T-GDI 48V 100HP Hybrid Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI 48V Hybrid DCT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137923/Hyundai-i20-(BC3)-10-T-GDI-48V-100HP-Hybrid-DCT.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 100HP Hybrid DCT Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.0 T-GDI 48V 100HP Hybrid DCT"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105400/Hyundai-i20-(GB)-10-T-GDI-100HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 100HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.0 T-GDI 100HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI BlueDrive",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105933/Hyundai-i20-(GB)-10-T-GDI-100HP-BlueDrive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 100HP BlueDrive Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.0 T-GDI 100HP BlueDrive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI 48V Hybrid",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137920/Hyundai-i20-(BC3)-10-T-GDI-48V-120HP-Hybrid-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 120HP Hybrid Auto Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.0 T-GDI 48V 120HP Hybrid Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI 48V Hybrid DCT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/137921/Hyundai-i20-(BC3)-10-T-GDI-48V-120HP-Hybrid-DCT.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M11030/i20-(BC3)",
+                  "generationLinkTitle": "i20 (BC3)9 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 48V 120HP Hybrid DCT Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.0 T-GDI 48V 120HP Hybrid DCT"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105386/Hyundai-i20-(GB)-10-T-GDI-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 120HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.0 T-GDI 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 T-GDI BlueDrive",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105934/Hyundai-i20-(GB)-10-T-GDI-120HP-BlueDrive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.0 T-GDI 120HP BlueDrive Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.0 T-GDI 120HP BlueDrive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.0 T-GDI BlueDrive",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105943/Hyundai-i20-Coupe-10-T-GDI-BlueDrive-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.0 T-GDI BlueDrive 120HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 Coupe 1.0 T-GDI BlueDrive 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70611/Hyundai-i20-(GB)-11-CRDi-75HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.1 CRDi 75HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi BlueDrive Essence",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105425/Hyundai-i20-(GB)-11-CRDi-75HP-BlueDrive-Essence.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP BlueDrive Essence Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.1 CRDi 75HP BlueDrive Essence"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi BlueDrive Klass",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105426/Hyundai-i20-(GB)-11-CRDi-75HP-BlueDrive-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP BlueDrive Klass Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.1 CRDi 75HP BlueDrive Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.1 CRDi Tecno",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70612/Hyundai-i20-(GB)-11-CRDi-75HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.1 CRDi 75HP Tecno Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.1 CRDi 75HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.1 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.1",
+                "powerHp": 75,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70806/Hyundai-i20-Coupe-11-CRDi-75HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.1 CRDi 75HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 Coupe 1.1 CRDi 75HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 BlueDrive Essence",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105422/Hyundai-i20-(GB)-12-85HP-BlueDrive-Essence.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP BlueDrive Essence Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.2 85HP BlueDrive Essence"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 BlueDrive Klass",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105423/Hyundai-i20-(GB)-12-85HP-BlueDrive-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP BlueDrive Klass Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.2 85HP BlueDrive Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 BlueDrive Tecno",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105424/Hyundai-i20-(GB)-12-85HP-BlueDrive-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP BlueDrive Tecno Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.2 85HP BlueDrive Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 Klass",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70608/Hyundai-i20-(GB)-12-85HP-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP Klass Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.2 85HP Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 Tecno",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70609/Hyundai-i20-(GB)-12-85HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.2 85HP Tecno Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.2 85HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70803/Hyundai-i20-Coupe-12-85HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.2 85HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 Coupe 1.2 85HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.2 Tecno",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/72109/Hyundai-i20-Coupe-12-85HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.2 85HP Tecno Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 Coupe 1.2 85HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.2 MPi",
+                "fuelType": "Benzin",
+                "engineVolume": "1.2",
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/68900/Hyundai-i20-(PB)-12-MPi-85HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M1358/i20-(PB)",
+                  "generationLinkTitle": "i20 (PB)12 Versions",
+                  "rawRowText": "i20 1.2 MPi 85HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.2 MPi 85HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70016/Hyundai-i20-(GB)-14-CRDi-90HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 CRDi 90HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Black Line",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/73055/Hyundai-i20-(GB)-14-CRDi-90HP-Black-Line.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Black Line Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 CRDi 90HP Black Line"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi BlueDrive Essence",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105427/Hyundai-i20-(GB)-14-CRDi-90HP-BlueDrive-Essence.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP BlueDrive Essence Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 CRDi 90HP BlueDrive Essence"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi BlueDrive Klass",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105428/Hyundai-i20-(GB)-14-CRDi-90HP-BlueDrive-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP BlueDrive Klass Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 CRDi 90HP BlueDrive Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Klass",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70613/Hyundai-i20-(GB)-14-CRDi-90HP-Klass.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Klass Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 CRDi 90HP Klass"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Klass Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105387/Hyundai-i20-(GB)-14-CRDi-90HP-Klass-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Klass Active Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 CRDi 90HP Klass Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Style",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70615/Hyundai-i20-(GB)-14-CRDi-90HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Style Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 CRDi 90HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Style Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105402/Hyundai-i20-(GB)-14-CRDi-90HP-Style-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Style Active Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 CRDi 90HP Style Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Tecno",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70614/Hyundai-i20-(GB)-14-CRDi-90HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Tecno Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 CRDi 90HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4 CRDi Tecno Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/105401/Hyundai-i20-(GB)-14-CRDi-90HP-Tecno-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 CRDi 90HP Tecno Active Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 CRDi 90HP Tecno Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 CRDi",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70807/Hyundai-i20-Coupe-14-CRDi-90HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 CRDi 90HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 Coupe 1.4 CRDi 90HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 CRDi Style",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/73054/Hyundai-i20-Coupe-14-CRDi-90HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 CRDi 90HP Style Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 Coupe 1.4 CRDi 90HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 CRDi Tecno",
+                "fuelType": "Dizel",
+                "engineVolume": "1.4",
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/72108/Hyundai-i20-Coupe-14-CRDi-90HP-Tecno.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 CRDi 90HP Tecno Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 Coupe 1.4 CRDi 90HP Tecno"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70012/Hyundai-i20-(GB)-14-100HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 100HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 100HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.4 Style",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70610/Hyundai-i20-(GB)-14-100HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.4 100HP Style Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.4 100HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Coupe 1.4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70804/Hyundai-i20-Coupe-14-100HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 100HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 Coupe 1.4 100HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "Coupe 1.4 Style",
+                "fuelType": "Benzin",
+                "engineVolume": "1.4",
+                "powerHp": 100,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/73051/Hyundai-i20-Coupe-14-100HP-Style.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M8107/i20-Coupe",
+                  "generationLinkTitle": "i20 Coupe10 Versions",
+                  "rawRowText": "i20 Coupe 1.4 100HP Style Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 Coupe 1.4 100HP Style"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.25",
+                "fuelType": "Benzin",
+                "engineVolume": null,
+                "powerHp": 84,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Hyundai/70011/Hyundai-i20-(GB)-125-84HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Hyundai/M7626/i20-(GB)",
+                  "generationLinkTitle": "i20 (GB)30 Versions",
+                  "rawRowText": "i20 1.25 84HP Specs",
+                  "detectedYear": 2008,
+                  "originalLabel": "i20 1.25 84HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

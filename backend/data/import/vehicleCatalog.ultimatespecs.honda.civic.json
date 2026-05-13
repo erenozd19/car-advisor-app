@@ -1,0 +1,2312 @@
+[
+  {
+    "brand": "Honda",
+    "models": [
+      {
+        "name": "Civic",
+        "generations": [
+          {
+            "name": "11th Generation",
+            "startYear": 2022,
+            "endYear": null,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107407/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107513/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP HPT Auto Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT Sedan",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/110280/Honda-Civic-10-Sedan-15-Turbo-VTEC-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M9436/Civic-10-Sedan",
+                  "generationLinkTitle": "Civic 10 Sedan2 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC HPT Auto Sedan Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 1.5 Turbo VTEC HPT Auto Sedan"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107514/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107515/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP HPT Auto Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67849/Honda-Civic-9-Tourer-16-i-DTEC-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Executive",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68010/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Executive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Lifestyle",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68009/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Lifestyle.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68001/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67850/Honda-Civic-9-Tourer-18-i-VTEC-141HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC Comfort",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68328/Honda-Civic-9-Tourer-18-i-VTEC-141HP-Auto-Comfort.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort Specs",
+                  "detectedYear": 2022,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort"
+                },
+                "transmissions": [
+                  "Otomatik",
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "10th Gen. (FC/FK)",
+            "startYear": 2016,
+            "endYear": 2022,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107407/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107513/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP HPT Auto Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT Sedan",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/110280/Honda-Civic-10-Sedan-15-Turbo-VTEC-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M9436/Civic-10-Sedan",
+                  "generationLinkTitle": "Civic 10 Sedan2 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC HPT Auto Sedan Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 1.5 Turbo VTEC HPT Auto Sedan"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107514/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107515/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP HPT Auto Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67849/Honda-Civic-9-Tourer-16-i-DTEC-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Executive",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68010/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Executive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Lifestyle",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68009/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Lifestyle.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68001/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67850/Honda-Civic-9-Tourer-18-i-VTEC-141HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC Comfort",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68328/Honda-Civic-9-Tourer-18-i-VTEC-141HP-Auto-Comfort.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort"
+                },
+                "transmissions": [
+                  "Otomatik",
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "9th Gen. (FB/FG/FK)",
+            "startYear": 2011,
+            "endYear": 2017,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107407/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107513/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP HPT Auto Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT Sedan",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/110280/Honda-Civic-10-Sedan-15-Turbo-VTEC-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M9436/Civic-10-Sedan",
+                  "generationLinkTitle": "Civic 10 Sedan2 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC HPT Auto Sedan Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 1.5 Turbo VTEC HPT Auto Sedan"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107514/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107515/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP HPT Auto Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67849/Honda-Civic-9-Tourer-16-i-DTEC-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Executive",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68010/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Executive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Lifestyle",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68009/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Lifestyle.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68001/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67850/Honda-Civic-9-Tourer-18-i-VTEC-141HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC Comfort",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68328/Honda-Civic-9-Tourer-18-i-VTEC-141HP-Auto-Comfort.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort Specs",
+                  "detectedYear": 2011,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort"
+                },
+                "transmissions": [
+                  "Otomatik",
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "8th Gen. (FA/FD/FG/FK/FN)",
+            "startYear": 2006,
+            "endYear": 2011,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107407/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107513/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP HPT Auto Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT Sedan",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/110280/Honda-Civic-10-Sedan-15-Turbo-VTEC-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M9436/Civic-10-Sedan",
+                  "generationLinkTitle": "Civic 10 Sedan2 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC HPT Auto Sedan Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 1.5 Turbo VTEC HPT Auto Sedan"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107514/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107515/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP HPT Auto Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67849/Honda-Civic-9-Tourer-16-i-DTEC-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Executive",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68010/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Executive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Lifestyle",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68009/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Lifestyle.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68001/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67850/Honda-Civic-9-Tourer-18-i-VTEC-141HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC Comfort",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68328/Honda-Civic-9-Tourer-18-i-VTEC-141HP-Auto-Comfort.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort Specs",
+                  "detectedYear": 2006,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort"
+                },
+                "transmissions": [
+                  "Otomatik",
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "7th Gen. (EM/EP/ES/EU)",
+            "startYear": 2001,
+            "endYear": 2005,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107407/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107513/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP HPT Auto Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT Sedan",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/110280/Honda-Civic-10-Sedan-15-Turbo-VTEC-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M9436/Civic-10-Sedan",
+                  "generationLinkTitle": "Civic 10 Sedan2 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC HPT Auto Sedan Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 1.5 Turbo VTEC HPT Auto Sedan"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107514/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107515/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP HPT Auto Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67849/Honda-Civic-9-Tourer-16-i-DTEC-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Executive",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68010/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Executive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Lifestyle",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68009/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Lifestyle.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68001/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67850/Honda-Civic-9-Tourer-18-i-VTEC-141HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC Comfort",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68328/Honda-Civic-9-Tourer-18-i-VTEC-141HP-Auto-Comfort.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort Specs",
+                  "detectedYear": 2001,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort"
+                },
+                "transmissions": [
+                  "Otomatik",
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "6th Gen. (EJ/EK/EM/MA/MB/MC)",
+            "startYear": 1996,
+            "endYear": 2000,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107407/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107513/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP HPT Auto Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT Sedan",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/110280/Honda-Civic-10-Sedan-15-Turbo-VTEC-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M9436/Civic-10-Sedan",
+                  "generationLinkTitle": "Civic 10 Sedan2 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC HPT Auto Sedan Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 1.5 Turbo VTEC HPT Auto Sedan"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107514/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107515/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP HPT Auto Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67849/Honda-Civic-9-Tourer-16-i-DTEC-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Executive",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68010/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Executive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Lifestyle",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68009/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Lifestyle.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68001/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67850/Honda-Civic-9-Tourer-18-i-VTEC-141HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC Comfort",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68328/Honda-Civic-9-Tourer-18-i-VTEC-141HP-Auto-Comfort.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort Specs",
+                  "detectedYear": 1996,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort"
+                },
+                "transmissions": [
+                  "Otomatik",
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "5th Gen. (EG/EH/EJ)",
+            "startYear": 1992,
+            "endYear": 1995,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107407/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107513/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP HPT Auto Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT Sedan",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/110280/Honda-Civic-10-Sedan-15-Turbo-VTEC-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M9436/Civic-10-Sedan",
+                  "generationLinkTitle": "Civic 10 Sedan2 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC HPT Auto Sedan Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 1.5 Turbo VTEC HPT Auto Sedan"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107514/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107515/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP HPT Auto Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67849/Honda-Civic-9-Tourer-16-i-DTEC-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Executive",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68010/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Executive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Lifestyle",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68009/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Lifestyle.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68001/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67850/Honda-Civic-9-Tourer-18-i-VTEC-141HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC Comfort",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68328/Honda-Civic-9-Tourer-18-i-VTEC-141HP-Auto-Comfort.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort Specs",
+                  "detectedYear": 1992,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort"
+                },
+                "transmissions": [
+                  "Otomatik",
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "4th Gen. (EF)",
+            "startYear": 1988,
+            "endYear": 1991,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107407/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107513/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP HPT Auto Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT Sedan",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/110280/Honda-Civic-10-Sedan-15-Turbo-VTEC-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M9436/Civic-10-Sedan",
+                  "generationLinkTitle": "Civic 10 Sedan2 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC HPT Auto Sedan Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 1.5 Turbo VTEC HPT Auto Sedan"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107514/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107515/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP HPT Auto Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67849/Honda-Civic-9-Tourer-16-i-DTEC-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Executive",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68010/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Executive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Lifestyle",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68009/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Lifestyle.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68001/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67850/Honda-Civic-9-Tourer-18-i-VTEC-141HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC Comfort",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68328/Honda-Civic-9-Tourer-18-i-VTEC-141HP-Auto-Comfort.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort Specs",
+                  "detectedYear": 1988,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort"
+                },
+                "transmissions": [
+                  "Otomatik",
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Third generation",
+            "startYear": 1983,
+            "endYear": 1987,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107407/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107513/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP HPT Auto Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT Sedan",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/110280/Honda-Civic-10-Sedan-15-Turbo-VTEC-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M9436/Civic-10-Sedan",
+                  "generationLinkTitle": "Civic 10 Sedan2 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC HPT Auto Sedan Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 1.5 Turbo VTEC HPT Auto Sedan"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107514/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107515/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP HPT Auto Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67849/Honda-Civic-9-Tourer-16-i-DTEC-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Executive",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68010/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Executive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Lifestyle",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68009/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Lifestyle.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68001/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67850/Honda-Civic-9-Tourer-18-i-VTEC-141HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC Comfort",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68328/Honda-Civic-9-Tourer-18-i-VTEC-141HP-Auto-Comfort.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort Specs",
+                  "detectedYear": 1983,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort"
+                },
+                "transmissions": [
+                  "Otomatik",
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Second generation",
+            "startYear": 1979,
+            "endYear": 1983,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.0 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107407/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.0 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.0",
+                "powerHp": 129,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107513/Honda-Civic-10-5-doors-10-Turbo-VTEC-129HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.0 Turbo VTEC 129HP HPT Auto Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 1.0 Turbo VTEC 129HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT Sedan",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/110280/Honda-Civic-10-Sedan-15-Turbo-VTEC-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M9436/Civic-10-Sedan",
+                  "generationLinkTitle": "Civic 10 Sedan2 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC HPT Auto Sedan Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 1.5 Turbo VTEC HPT Auto Sedan"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107514/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.5 Turbo VTEC HPT",
+                "fuelType": "Benzin",
+                "engineVolume": "1.5",
+                "powerHp": 182,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/107515/Honda-Civic-10-5-doors-15-Turbo-VTEC-182HP-HPT-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M8969/Civic-10-5-doors",
+                  "generationLinkTitle": "Civic 10 5-doors10 Versions",
+                  "rawRowText": "Civic 1.5 Turbo VTEC 182HP HPT Auto Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 1.5 Turbo VTEC 182HP HPT Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67849/Honda-Civic-9-Tourer-16-i-DTEC-120HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Executive",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68010/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Executive.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Executive"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Lifestyle",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68009/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Lifestyle.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Lifestyle"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.6 i-DTEC Sport",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": 120,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68001/Honda-Civic-9-Tourer-16-i-DTEC-120HP-Sport.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 9 Tourer 1.6 i-DTEC 120HP Sport"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/67850/Honda-Civic-9-Tourer-18-i-VTEC-141HP.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP"
+                },
+                "transmissions": [
+                  "Manuel",
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "9 Tourer 1.8 i-VTEC Comfort",
+                "fuelType": "Benzin",
+                "engineVolume": "1.8",
+                "powerHp": 141,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Honda/68328/Honda-Civic-9-Tourer-18-i-VTEC-141HP-Auto-Comfort.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Honda/M7136/Civic-9-Tourer",
+                  "generationLinkTitle": "Civic 9 Tourer8 Versions",
+                  "rawRowText": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort Specs",
+                  "detectedYear": 1979,
+                  "originalLabel": "Civic 9 Tourer 1.8 i-VTEC 141HP Auto Comfort"
+                },
+                "transmissions": [
+                  "Otomatik",
+                  "Manuel"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

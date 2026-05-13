@@ -1,0 +1,1724 @@
+[
+  {
+    "brand": "Dacia",
+    "models": [
+      {
+        "name": "Duster",
+        "generations": [
+          {
+            "name": "Duster III (P1310)",
+            "startYear": 2024,
+            "endYear": null,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "Ambiance 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24252/Dacia-Duster-1-Phase-1-Ambiance-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Ambiance 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24253/Dacia-Duster-1-Phase-1-Ambiance-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Ambiance 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24250/Dacia-Duster-1-Phase-1-Base-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Base 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24251/Dacia-Duster-1-Phase-1-Base-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Base 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24261/Dacia-Duster-1-Phase-1-Laureate-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Laureate 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24262/Dacia-Duster-1-Phase-1-Laureate-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Laureate 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10830/Dacia-Duster-1-Phase-1-Ambiance-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Ambiance 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10831/Dacia-Duster-1-Phase-1-Ambiance-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Ambiance 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10828/Dacia-Duster-1-Phase-1-Base-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Base 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10829/Dacia-Duster-1-Phase-1-Base-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Base 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10832/Dacia-Duster-1-Phase-1-Laureate-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Laureate 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10833/Dacia-Duster-1-Phase-1-Laureate-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Laureate 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10834/Dacia-Duster-1-Phase-1-Ambiance-dCi-85HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 85HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Ambiance dCi 85HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10838/Dacia-Duster-1-Phase-1-Laureate-dCi-85HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 85HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Laureate dCi 85HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 86,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24264/Dacia-Duster-1-Phase-1-Laureate-dCi-86HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 86HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Laureate dCi 86HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24254/Dacia-Duster-1-Phase-1-Ambiance-dCi-90HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 90HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Ambiance dCi 90HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24263/Dacia-Duster-1-Phase-1-Laureate-dCi-90HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 90HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Laureate dCi 90HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10835/Dacia-Duster-1-Phase-1-Ambiance-dCi-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 110HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Ambiance dCi 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x4",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10836/Dacia-Duster-1-Phase-1-Ambiance-dCi-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 110HP 4x4 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Ambiance dCi 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10839/Dacia-Duster-1-Phase-1-Laureate-dCi-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 110HP 4x2 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Laureate dCi 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x4",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10837/Dacia-Duster-1-Phase-1-Laureate-dCi-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 110HP 4x4 Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "Duster Laureate dCi 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Duster II Phase 2 - 2022 Update",
+            "startYear": 2021,
+            "endYear": null,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "Ambiance 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24252/Dacia-Duster-1-Phase-1-Ambiance-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Ambiance 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24253/Dacia-Duster-1-Phase-1-Ambiance-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Ambiance 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24250/Dacia-Duster-1-Phase-1-Base-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Base 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24251/Dacia-Duster-1-Phase-1-Base-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Base 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24261/Dacia-Duster-1-Phase-1-Laureate-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Laureate 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24262/Dacia-Duster-1-Phase-1-Laureate-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Laureate 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10830/Dacia-Duster-1-Phase-1-Ambiance-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Ambiance 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10831/Dacia-Duster-1-Phase-1-Ambiance-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Ambiance 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10828/Dacia-Duster-1-Phase-1-Base-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Base 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10829/Dacia-Duster-1-Phase-1-Base-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Base 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10832/Dacia-Duster-1-Phase-1-Laureate-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Laureate 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10833/Dacia-Duster-1-Phase-1-Laureate-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Laureate 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10834/Dacia-Duster-1-Phase-1-Ambiance-dCi-85HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 85HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Ambiance dCi 85HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10838/Dacia-Duster-1-Phase-1-Laureate-dCi-85HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 85HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Laureate dCi 85HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 86,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24264/Dacia-Duster-1-Phase-1-Laureate-dCi-86HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 86HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Laureate dCi 86HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24254/Dacia-Duster-1-Phase-1-Ambiance-dCi-90HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 90HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Ambiance dCi 90HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24263/Dacia-Duster-1-Phase-1-Laureate-dCi-90HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 90HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Laureate dCi 90HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10835/Dacia-Duster-1-Phase-1-Ambiance-dCi-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 110HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Ambiance dCi 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x4",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10836/Dacia-Duster-1-Phase-1-Ambiance-dCi-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 110HP 4x4 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Ambiance dCi 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10839/Dacia-Duster-1-Phase-1-Laureate-dCi-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 110HP 4x2 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Laureate dCi 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x4",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10837/Dacia-Duster-1-Phase-1-Laureate-dCi-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 110HP 4x4 Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "Duster Laureate dCi 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Duster II Phase 1",
+            "startYear": 2018,
+            "endYear": 2021,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "Ambiance 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24252/Dacia-Duster-1-Phase-1-Ambiance-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Ambiance 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24253/Dacia-Duster-1-Phase-1-Ambiance-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Ambiance 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24250/Dacia-Duster-1-Phase-1-Base-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Base 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24251/Dacia-Duster-1-Phase-1-Base-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Base 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24261/Dacia-Duster-1-Phase-1-Laureate-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Laureate 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24262/Dacia-Duster-1-Phase-1-Laureate-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Laureate 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10830/Dacia-Duster-1-Phase-1-Ambiance-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Ambiance 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10831/Dacia-Duster-1-Phase-1-Ambiance-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Ambiance 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10828/Dacia-Duster-1-Phase-1-Base-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Base 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10829/Dacia-Duster-1-Phase-1-Base-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Base 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10832/Dacia-Duster-1-Phase-1-Laureate-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Laureate 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10833/Dacia-Duster-1-Phase-1-Laureate-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Laureate 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10834/Dacia-Duster-1-Phase-1-Ambiance-dCi-85HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 85HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Ambiance dCi 85HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10838/Dacia-Duster-1-Phase-1-Laureate-dCi-85HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 85HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Laureate dCi 85HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 86,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24264/Dacia-Duster-1-Phase-1-Laureate-dCi-86HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 86HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Laureate dCi 86HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24254/Dacia-Duster-1-Phase-1-Ambiance-dCi-90HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 90HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Ambiance dCi 90HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24263/Dacia-Duster-1-Phase-1-Laureate-dCi-90HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 90HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Laureate dCi 90HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10835/Dacia-Duster-1-Phase-1-Ambiance-dCi-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 110HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Ambiance dCi 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x4",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10836/Dacia-Duster-1-Phase-1-Ambiance-dCi-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 110HP 4x4 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Ambiance dCi 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10839/Dacia-Duster-1-Phase-1-Laureate-dCi-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 110HP 4x2 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Laureate dCi 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x4",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10837/Dacia-Duster-1-Phase-1-Laureate-dCi-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 110HP 4x4 Specs",
+                  "detectedYear": 2018,
+                  "originalLabel": "Duster Laureate dCi 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Duster I",
+            "startYear": 2010,
+            "endYear": 2017,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "Ambiance 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24252/Dacia-Duster-1-Phase-1-Ambiance-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Ambiance 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24253/Dacia-Duster-1-Phase-1-Ambiance-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Ambiance 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24250/Dacia-Duster-1-Phase-1-Base-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Base 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24251/Dacia-Duster-1-Phase-1-Base-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Base 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24261/Dacia-Duster-1-Phase-1-Laureate-16-105HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 105HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Laureate 1.6 105HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 105,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24262/Dacia-Duster-1-Phase-1-Laureate-16-105HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 105HP 4x4 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Laureate 1.6 105HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10830/Dacia-Duster-1-Phase-1-Ambiance-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Ambiance 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10831/Dacia-Duster-1-Phase-1-Ambiance-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Ambiance 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10828/Dacia-Duster-1-Phase-1-Base-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Base 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Base 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10829/Dacia-Duster-1-Phase-1-Base-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Base 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Base 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x2",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10832/Dacia-Duster-1-Phase-1-Laureate-16-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 110HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Laureate 1.6 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate 1.6 4x4",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10833/Dacia-Duster-1-Phase-1-Laureate-16-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate 1.6 110HP 4x4 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Laureate 1.6 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10834/Dacia-Duster-1-Phase-1-Ambiance-dCi-85HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 85HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Ambiance dCi 85HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 85,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10838/Dacia-Duster-1-Phase-1-Laureate-dCi-85HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 85HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Laureate dCi 85HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 86,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24264/Dacia-Duster-1-Phase-1-Laureate-dCi-86HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 86HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Laureate dCi 86HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24254/Dacia-Duster-1-Phase-1-Ambiance-dCi-90HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 90HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Ambiance dCi 90HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 90,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/24263/Dacia-Duster-1-Phase-1-Laureate-dCi-90HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 90HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Laureate dCi 90HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10835/Dacia-Duster-1-Phase-1-Ambiance-dCi-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 110HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Ambiance dCi 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Ambiance dCi 4x4",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10836/Dacia-Duster-1-Phase-1-Ambiance-dCi-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Ambiance dCi 110HP 4x4 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Ambiance dCi 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x2",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10839/Dacia-Duster-1-Phase-1-Laureate-dCi-110HP-4x2.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 110HP 4x2 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Laureate dCi 110HP 4x2"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "Laureate dCi 4x4",
+                "fuelType": "Dizel",
+                "engineVolume": null,
+                "powerHp": 110,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Dacia/10837/Dacia-Duster-1-Phase-1-Laureate-dCi-110HP-4x4.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Dacia/M1448/Duster-1-Phase-1",
+                  "generationLinkTitle": "Duster 1 Phase 133 Versions",
+                  "rawRowText": "Duster Laureate dCi 110HP 4x4 Specs",
+                  "detectedYear": 2010,
+                  "originalLabel": "Duster Laureate dCi 110HP 4x4"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

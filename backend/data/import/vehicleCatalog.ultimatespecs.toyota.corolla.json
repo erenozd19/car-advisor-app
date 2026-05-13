@@ -1,0 +1,75 @@
+[
+  {
+    "brand": "Toyota",
+    "models": [
+      {
+        "name": "Corolla",
+        "generations": [
+          {
+            "name": "Corolla E210 - Facelift 2023",
+            "startYear": 2023,
+            "endYear": null,
+            "bodyType": null,
+            "engines": []
+          },
+          {
+            "name": "Corolla E210",
+            "startYear": 2018,
+            "endYear": 2023,
+            "bodyType": null,
+            "engines": []
+          },
+          {
+            "name": "Corolla E140",
+            "startYear": 2006,
+            "endYear": 2013,
+            "bodyType": null,
+            "engines": []
+          },
+          {
+            "name": "Corolla E120",
+            "startYear": 2000,
+            "endYear": 2006,
+            "bodyType": null,
+            "engines": []
+          },
+          {
+            "name": "Corolla E110",
+            "startYear": 1995,
+            "endYear": 2000,
+            "bodyType": null,
+            "engines": []
+          },
+          {
+            "name": "Corolla E100",
+            "startYear": 1991,
+            "endYear": 1995,
+            "bodyType": null,
+            "engines": []
+          },
+          {
+            "name": "Corolla E90",
+            "startYear": 1987,
+            "endYear": 1991,
+            "bodyType": null,
+            "engines": []
+          },
+          {
+            "name": "Corolla E80",
+            "startYear": 1983,
+            "endYear": 1987,
+            "bodyType": null,
+            "engines": []
+          },
+          {
+            "name": "Corolla E70",
+            "startYear": 1979,
+            "endYear": 1983,
+            "bodyType": null,
+            "engines": []
+          }
+        ]
+      }
+    ]
+  }
+]

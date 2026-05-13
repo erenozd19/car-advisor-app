@@ -1,0 +1,1244 @@
+[
+  {
+    "brand": "Peugeot",
+    "models": [
+      {
+        "name": "3008",
+        "generations": [
+          {
+            "name": "3008 III - New Model",
+            "startYear": 2024,
+            "endYear": null,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.6 THP 165",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/106432/Peugeot-3008-II-16-THP-165-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 1.6 THP 165 Auto Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 THP 165 Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.6 THP 155 Napapijri",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/65568/Peugeot-3008-16-THP-155-Napapijri.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 155 Napapijri Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 THP 155 Napapijri"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Active",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/40529/Peugeot-3008-16-THP-156-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Active Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 THP 156 Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Aut. Sport Pack",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/10095/Peugeot-3008-16-THP-156-Aut-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Aut. Sport Pack Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 THP 156 Aut. Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Premium",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/8219/Peugeot-3008-16-THP-156-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Premium Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 THP 156 Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Sport Pack",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/8220/Peugeot-3008-16-THP-156-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Sport Pack Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 THP 156 Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 165 S&S EAT6 Allure",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/71840/Peugeot-3008-16-THP-165-S-S-EAT6-Allure.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 165 S&S EAT6 Allure Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 THP 165 S&S EAT6 Allure"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 e-HDi 112 FAP CMP Blue Lion Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/59496/Peugeot-3008-16-e-HDi-112-FAP-CMP-Blue-Lion-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 e-HDi 112 FAP CMP Blue Lion Active Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 e-HDi 112 FAP CMP Blue Lion Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 e-HDi 115 CMP Blue Lion Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/64258/Peugeot-3008-16-e-HDi-115-CMP-Blue-Lion-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 e-HDi 115 CMP Blue Lion Active Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 e-HDi 115 CMP Blue Lion Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 110 FAP CMP Premium",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/12041/Peugeot-3008-16-HDI-110-FAP-CMP-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 110 FAP CMP Premium Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 HDI 110 FAP CMP Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 110 FAP CMP Sport Pack",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/9493/Peugeot-3008-16-HDI-110-FAP-CMP-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 110 FAP CMP Sport Pack Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 HDI 110 FAP CMP Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 112 FAP CMP Premium",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/14085/Peugeot-3008-16-HDI-112-FAP-CMP-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 112 FAP CMP Premium Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 HDI 112 FAP CMP Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 112 FAP CMP Sport Pack",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/14087/Peugeot-3008-16-HDI-112-FAP-CMP-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 112 FAP CMP Sport Pack Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 1.6 HDI 112 FAP CMP Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "HYbrid4 300 3.7kW Charger",
+                "fuelType": "Hibrit",
+                "engineVolume": null,
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/118064/Peugeot-3008-II-HYbrid4-300-37kW-Charger.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 HYbrid4 300 3.7kW Charger Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 HYbrid4 300 3.7kW Charger"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "HYbrid4 300 7.4kW Charger",
+                "fuelType": "Hibrit",
+                "engineVolume": null,
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/118065/Peugeot-3008-II-HYbrid4-300-74kW-Charger.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 HYbrid4 300 7.4kW Charger Specs",
+                  "detectedYear": 2024,
+                  "originalLabel": "3008 HYbrid4 300 7.4kW Charger"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "3008 2 - 2021 Facelift",
+            "startYear": 2021,
+            "endYear": null,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.6 THP 165",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/106432/Peugeot-3008-II-16-THP-165-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 1.6 THP 165 Auto Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 THP 165 Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.6 THP 155 Napapijri",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/65568/Peugeot-3008-16-THP-155-Napapijri.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 155 Napapijri Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 THP 155 Napapijri"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Active",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/40529/Peugeot-3008-16-THP-156-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Active Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 THP 156 Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Aut. Sport Pack",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/10095/Peugeot-3008-16-THP-156-Aut-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Aut. Sport Pack Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 THP 156 Aut. Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Premium",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/8219/Peugeot-3008-16-THP-156-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Premium Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 THP 156 Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Sport Pack",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/8220/Peugeot-3008-16-THP-156-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Sport Pack Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 THP 156 Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 165 S&S EAT6 Allure",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/71840/Peugeot-3008-16-THP-165-S-S-EAT6-Allure.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 165 S&S EAT6 Allure Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 THP 165 S&S EAT6 Allure"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 e-HDi 112 FAP CMP Blue Lion Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/59496/Peugeot-3008-16-e-HDi-112-FAP-CMP-Blue-Lion-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 e-HDi 112 FAP CMP Blue Lion Active Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 e-HDi 112 FAP CMP Blue Lion Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 e-HDi 115 CMP Blue Lion Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/64258/Peugeot-3008-16-e-HDi-115-CMP-Blue-Lion-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 e-HDi 115 CMP Blue Lion Active Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 e-HDi 115 CMP Blue Lion Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 110 FAP CMP Premium",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/12041/Peugeot-3008-16-HDI-110-FAP-CMP-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 110 FAP CMP Premium Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 HDI 110 FAP CMP Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 110 FAP CMP Sport Pack",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/9493/Peugeot-3008-16-HDI-110-FAP-CMP-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 110 FAP CMP Sport Pack Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 HDI 110 FAP CMP Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 112 FAP CMP Premium",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/14085/Peugeot-3008-16-HDI-112-FAP-CMP-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 112 FAP CMP Premium Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 HDI 112 FAP CMP Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 112 FAP CMP Sport Pack",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/14087/Peugeot-3008-16-HDI-112-FAP-CMP-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 112 FAP CMP Sport Pack Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 1.6 HDI 112 FAP CMP Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "HYbrid4 300 3.7kW Charger",
+                "fuelType": "Hibrit",
+                "engineVolume": null,
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/118064/Peugeot-3008-II-HYbrid4-300-37kW-Charger.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 HYbrid4 300 3.7kW Charger Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 HYbrid4 300 3.7kW Charger"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "HYbrid4 300 7.4kW Charger",
+                "fuelType": "Hibrit",
+                "engineVolume": null,
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/118065/Peugeot-3008-II-HYbrid4-300-74kW-Charger.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 HYbrid4 300 7.4kW Charger Specs",
+                  "detectedYear": 2021,
+                  "originalLabel": "3008 HYbrid4 300 7.4kW Charger"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "3008 2",
+            "startYear": 2016,
+            "endYear": null,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.6 THP 165",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/106432/Peugeot-3008-II-16-THP-165-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 1.6 THP 165 Auto Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 THP 165 Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.6 THP 155 Napapijri",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/65568/Peugeot-3008-16-THP-155-Napapijri.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 155 Napapijri Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 THP 155 Napapijri"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Active",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/40529/Peugeot-3008-16-THP-156-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Active Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 THP 156 Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Aut. Sport Pack",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/10095/Peugeot-3008-16-THP-156-Aut-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Aut. Sport Pack Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 THP 156 Aut. Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Premium",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/8219/Peugeot-3008-16-THP-156-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Premium Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 THP 156 Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Sport Pack",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/8220/Peugeot-3008-16-THP-156-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Sport Pack Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 THP 156 Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 165 S&S EAT6 Allure",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/71840/Peugeot-3008-16-THP-165-S-S-EAT6-Allure.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 165 S&S EAT6 Allure Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 THP 165 S&S EAT6 Allure"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 e-HDi 112 FAP CMP Blue Lion Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/59496/Peugeot-3008-16-e-HDi-112-FAP-CMP-Blue-Lion-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 e-HDi 112 FAP CMP Blue Lion Active Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 e-HDi 112 FAP CMP Blue Lion Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 e-HDi 115 CMP Blue Lion Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/64258/Peugeot-3008-16-e-HDi-115-CMP-Blue-Lion-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 e-HDi 115 CMP Blue Lion Active Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 e-HDi 115 CMP Blue Lion Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 110 FAP CMP Premium",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/12041/Peugeot-3008-16-HDI-110-FAP-CMP-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 110 FAP CMP Premium Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 HDI 110 FAP CMP Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 110 FAP CMP Sport Pack",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/9493/Peugeot-3008-16-HDI-110-FAP-CMP-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 110 FAP CMP Sport Pack Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 HDI 110 FAP CMP Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 112 FAP CMP Premium",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/14085/Peugeot-3008-16-HDI-112-FAP-CMP-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 112 FAP CMP Premium Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 HDI 112 FAP CMP Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 112 FAP CMP Sport Pack",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/14087/Peugeot-3008-16-HDI-112-FAP-CMP-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 112 FAP CMP Sport Pack Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 1.6 HDI 112 FAP CMP Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "HYbrid4 300 3.7kW Charger",
+                "fuelType": "Hibrit",
+                "engineVolume": null,
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/118064/Peugeot-3008-II-HYbrid4-300-37kW-Charger.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 HYbrid4 300 3.7kW Charger Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 HYbrid4 300 3.7kW Charger"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "HYbrid4 300 7.4kW Charger",
+                "fuelType": "Hibrit",
+                "engineVolume": null,
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/118065/Peugeot-3008-II-HYbrid4-300-74kW-Charger.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 HYbrid4 300 7.4kW Charger Specs",
+                  "detectedYear": 2016,
+                  "originalLabel": "3008 HYbrid4 300 7.4kW Charger"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "3008 1",
+            "startYear": 2009,
+            "endYear": 2016,
+            "bodyType": null,
+            "engines": [
+              {
+                "label": "1.6 THP 165",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/106432/Peugeot-3008-II-16-THP-165-Auto.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 1.6 THP 165 Auto Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 THP 165 Auto"
+                },
+                "transmissions": [
+                  "Otomatik"
+                ]
+              },
+              {
+                "label": "1.6 THP 155 Napapijri",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/65568/Peugeot-3008-16-THP-155-Napapijri.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 155 Napapijri Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 THP 155 Napapijri"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Active",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/40529/Peugeot-3008-16-THP-156-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Active Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 THP 156 Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Aut. Sport Pack",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/10095/Peugeot-3008-16-THP-156-Aut-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Aut. Sport Pack Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 THP 156 Aut. Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Premium",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/8219/Peugeot-3008-16-THP-156-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Premium Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 THP 156 Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 156 Sport Pack",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/8220/Peugeot-3008-16-THP-156-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 156 Sport Pack Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 THP 156 Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 THP 165 S&S EAT6 Allure",
+                "fuelType": "Benzin",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/71840/Peugeot-3008-16-THP-165-S-S-EAT6-Allure.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 THP 165 S&S EAT6 Allure Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 THP 165 S&S EAT6 Allure"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 e-HDi 112 FAP CMP Blue Lion Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/59496/Peugeot-3008-16-e-HDi-112-FAP-CMP-Blue-Lion-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 e-HDi 112 FAP CMP Blue Lion Active Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 e-HDi 112 FAP CMP Blue Lion Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 e-HDi 115 CMP Blue Lion Active",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/64258/Peugeot-3008-16-e-HDi-115-CMP-Blue-Lion-Active.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 e-HDi 115 CMP Blue Lion Active Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 e-HDi 115 CMP Blue Lion Active"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 110 FAP CMP Premium",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/12041/Peugeot-3008-16-HDI-110-FAP-CMP-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 110 FAP CMP Premium Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 HDI 110 FAP CMP Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 110 FAP CMP Sport Pack",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/9493/Peugeot-3008-16-HDI-110-FAP-CMP-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 110 FAP CMP Sport Pack Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 HDI 110 FAP CMP Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 112 FAP CMP Premium",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/14085/Peugeot-3008-16-HDI-112-FAP-CMP-Premium.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 112 FAP CMP Premium Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 HDI 112 FAP CMP Premium"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "1.6 HDI 112 FAP CMP Sport Pack",
+                "fuelType": "Dizel",
+                "engineVolume": "1.6",
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/14087/Peugeot-3008-16-HDI-112-FAP-CMP-Sport-Pack.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M1355/3008",
+                  "generationLinkTitle": "300856 Versions",
+                  "rawRowText": "3008 1.6 HDI 112 FAP CMP Sport Pack Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 1.6 HDI 112 FAP CMP Sport Pack"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "HYbrid4 300 3.7kW Charger",
+                "fuelType": "Hibrit",
+                "engineVolume": null,
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/118064/Peugeot-3008-II-HYbrid4-300-37kW-Charger.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 HYbrid4 300 3.7kW Charger Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 HYbrid4 300 3.7kW Charger"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              },
+              {
+                "label": "HYbrid4 300 7.4kW Charger",
+                "fuelType": "Hibrit",
+                "engineVolume": null,
+                "powerHp": null,
+                "torqueNm": null,
+                "sourceName": "UltimateSpecs",
+                "sourceUrl": "https://www.ultimatespecs.com/car-specs/Peugeot/118065/Peugeot-3008-II-HYbrid4-300-74kW-Charger.html",
+                "specs": {
+                  "importedFrom": "UltimateSpecs test scraper",
+                  "generationPage": "https://www.ultimatespecs.com/car-specs/Peugeot/M8842/3008-II",
+                  "generationLinkTitle": "3008 II26 Versions",
+                  "rawRowText": "3008 HYbrid4 300 7.4kW Charger Specs",
+                  "detectedYear": 2009,
+                  "originalLabel": "3008 HYbrid4 300 7.4kW Charger"
+                },
+                "transmissions": [
+                  "Manuel"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

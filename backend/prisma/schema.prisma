@@ -76,3 +76,47 @@ model AnalysisReport {
   confidenceScore Int?
   createdAt       DateTime @default(now())
 }
+
+model MarketListing {
+  id              String   @id @default(cuid())
+
+  brand           String
+  model           String
+  bodyType        String?
+  year            Int?
+  engine          String?
+  fuelType        String?
+  transmission    String?
+  packageName     String?
+
+  km              Int?
+  price           Int
+  currency        String   @default("TRY")
+
+  sourceName      String?
+  sourceUrl       String?
+  sourceType      String?  // ai_search, indexed_web, admin_import, user_target, partner_api
+
+  title           String?
+  vehicleText     String?
+  location        String?
+
+  cleanSignal     Boolean  @default(false)
+  damageSignal    Boolean  @default(false)
+  tramerSignal    Boolean  @default(false)
+
+  matchScore      Int?
+  matchQuality    String?
+  confidence      String?
+
+  capturedAt      DateTime @default(now())
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  @@index([brand, model, year])
+  @@index([brand, model, engine])
+  @@index([brand, model, transmission])
+  @@index([km])
+  @@index([price])
+  @@index([capturedAt])
+}
